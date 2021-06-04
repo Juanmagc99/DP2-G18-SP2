@@ -5,6 +5,7 @@ import java.util.Date;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.entities.shouts.InfoSheet;
 import acme.entities.shouts.Shout;
 import acme.features.administrator.configuration.SpamService;
 import acme.framework.components.Errors;
@@ -51,11 +52,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		assert entity != null;
 		assert model != null;
 		
-		//Shout data
-		request.unbind(entity, model, "author", "text", "info", "sheet");
-		
-		//InfoSheet data
-		request.unbind(entity.getSheet(), model, "infoDate", "infoMoney", "infoFlag");
+		request.unbind(entity, model, "author", "text", "info", "InfoSheet.infoDate", "InfoSheet.infoMoney", "InfoSheet.infoFlag");
 	}
 
 	@Override
@@ -63,14 +60,17 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		assert request != null;
 
 		Shout result;
-		Date moment;
+		final Date moment;
+		final InfoSheet sheet;
 		
-
+		sheet = new InfoSheet();
 		moment = new Date(System.currentTimeMillis() - 1);
 
 		result = new Shout();
 		result.setMoment(moment);
-
+		result.setSheet(sheet);
+		sheet.setShout(result);
+		
 		return result;
 	}
 
@@ -100,6 +100,8 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		
 		
 		entity.getSheet().setInfoStamp(moment);
+		
+		//this.repository.save(entity.getSheet());
 		this.repository.save(entity);
 	}
 

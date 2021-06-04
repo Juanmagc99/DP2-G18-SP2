@@ -37,15 +37,11 @@ public class InfoSheet extends DomainEntity {
 	@Temporal(TemporalType.TIMESTAMP)
 	protected Date		infoStamp;
 	
-	@NotNull
 	protected Money		infoMoney;
 	
 	@NotNull
 	protected Boolean	infoFlag;
 	
-	@NotNull
-	@OneToOne
+	@OneToOne(mappedBy = "sheet")
 	protected Shout shout;
-
-
 }

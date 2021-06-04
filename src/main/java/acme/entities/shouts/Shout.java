@@ -3,6 +3,7 @@ import java.util.Date;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -44,7 +45,8 @@ public class Shout extends DomainEntity {
 	protected String			info;
 	
 	@Valid
-	@OneToOne(mappedBy = "shout", cascade = CascadeType.ALL)
+	@OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "sheet_id", referencedColumnName = "id")
 	protected InfoSheet sheet; 
 
 
