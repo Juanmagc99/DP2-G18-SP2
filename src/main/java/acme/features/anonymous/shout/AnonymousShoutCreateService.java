@@ -50,8 +50,12 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		assert request != null;
 		assert entity != null;
 		assert model != null;
-
-		request.unbind(entity, model, "author", "text", "info");
+		
+		//Shout data
+		request.unbind(entity, model, "author", "text", "info", "sheet");
+		
+		//InfoSheet data
+		request.unbind(entity.getSheet(), model, "infoDate", "infoMoney", "infoFlag");
 	}
 
 	@Override
@@ -60,12 +64,12 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 
 		Shout result;
 		Date moment;
+		
 
 		moment = new Date(System.currentTimeMillis() - 1);
 
 		result = new Shout();
 		result.setMoment(moment);
-		
 
 		return result;
 	}
@@ -93,6 +97,9 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 
 		moment = new Date(System.currentTimeMillis() - 1);
 		entity.setMoment(moment);
+		
+		
+		entity.getSheet().setInfoStamp(moment);
 		this.repository.save(entity);
 	}
 

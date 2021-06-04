@@ -8,6 +8,13 @@
 	<acme:form-textarea code="anonymous.shout.form.label.text" path="text"/>
 	<acme:form-textbox code="anonymous.shout.form.label.info" path="info"/>
 	
+	<!-- <acme:form-moment code="anonymous.user-account.label.infoDate" path="infoDate"/> -->
+	<acme:form-textbox code="anonymous.user-account.label.infoDate" path="infoDate"/>
+	
+	<!--<acme:form-moment code="anonymous.user-account.label.infoStamp" path="infoStamp"/> -->
+	<acme:form-textbox code="anonymous.user-account.label.infoMoney" path="infoMoney"/>
+	<acme:form-checkbox code="anonymous.user-account.label.infoFlag" path="infoFlag"/>
+	
 	<acme:form-submit code="anonymous.shout.form.button.create" action="/anonymous/shout/create"/>
   	<acme:form-return code="anonymous.shout.form.button.return"/>
 
