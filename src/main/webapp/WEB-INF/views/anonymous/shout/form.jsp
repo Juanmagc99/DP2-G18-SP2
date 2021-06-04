@@ -11,7 +11,7 @@
 	<!-- <acme:form-moment code="anonymous.user-account.label.infoDate" path="infoDate"/> -->
 	<acme:form-textbox code="anonymous.user-account.label.infoDate" path="sheet.infoDate"/>
 	
-	<!--<acme:form-moment code="anonymous.user-account.label.infoStamp" path="infoStamp"/> -->
+	<acme:form-moment code="anonymous.user-account.label.infoStamp" path="sheet.infoStamp"/>
 	<acme:form-textbox code="anonymous.user-account.label.infoMoney" path="sheet.infoMoney"/>
 	<acme:form-checkbox code="anonymous.user-account.label.infoFlag" path="sheet.infoFlag"/>
 	

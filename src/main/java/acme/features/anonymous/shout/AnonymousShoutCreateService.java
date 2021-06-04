@@ -52,7 +52,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		assert entity != null;
 		assert model != null;
 		
-		request.unbind(entity, model, "author", "text", "info", "InfoSheet.infoDate", "InfoSheet.infoMoney", "InfoSheet.infoFlag");
+		request.unbind(entity, model, "author", "text", "info", "sheet.infoDate", "sheet.infoMoney", "sheet.infoFlag");
 	}
 
 	@Override
@@ -101,7 +101,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		
 		entity.getSheet().setInfoStamp(moment);
 		
-		//this.repository.save(entity.getSheet());
+		this.repository.save(entity.getSheet());
 		this.repository.save(entity);
 	}
 
