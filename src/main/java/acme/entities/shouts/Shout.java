@@ -15,6 +15,7 @@ import javax.validation.constraints.Past;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
+
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -48,6 +49,11 @@ public class Shout extends DomainEntity {
 	@OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "sheet_id", referencedColumnName = "id")
 	protected InfoSheet sheet; 
+	
+	
+//	@Valid//para que coja las restricciones
+//	@OneToOne(optional = false)//porque debe tenerlo sí o sí (un shout MUST tener un XXX)
+//	protected InfoSheet sheet;
 
 
 }

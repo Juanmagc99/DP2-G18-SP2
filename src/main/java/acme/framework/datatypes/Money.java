@@ -15,6 +15,7 @@ package acme.framework.datatypes;
 import javax.persistence.Embeddable;
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Pattern;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -33,7 +34,7 @@ public class Money extends DomainDatatype {
 	@Digits(integer = 10, fraction = 2)
 	protected Double			amount;
 
-	@NotBlank
+	@NotBlank@Pattern(regexp = "EUR|USD")//Solo acepta uno u otro
 	protected String			currency;
 
 	// Object interface -------------------------------------------------------

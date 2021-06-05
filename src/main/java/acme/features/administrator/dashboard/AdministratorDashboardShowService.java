@@ -12,6 +12,8 @@
 
 package acme.features.administrator.dashboard;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -46,10 +48,12 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		assert model != null;
 
 		request.unbind(entity, model, //
-			"numPrivateTask", "numPublicTask", // 
-			"numFinishedTask", "numCurrentTask", //
-			"numExecutions", "numWorkloads");
-	}
+				"numPrivateTask", "numPublicTask", // 
+				"numFinishedTask", "numCurrentTask", //
+				"numExecutions", "numWorkloads","ratioShoutsFlaggedTrue", "ratioShoutsFlaggedFalse",
+				"ratioShoutsYear2020", "averageSheetGroupByCurrency1", "averageSheetGroupByCurrency2",
+				"deviationSheetGroupByCurrency1", "deviationSheetGroupByCurrency2");
+		}
 	
 	public String parsenumExecutions(final String s) {
 		final String[] trozo =s.split(",");
@@ -107,6 +111,15 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		String numExecutions;
 		String numWorkloads;
 		
+		
+		final Double ratioShoutsFlaggedTrue;
+		final Double ratioShoutsFlaggedFalse;
+		final Double ratioShoutsYear2020;
+		final Double averageSheetGroupByCurrency1;
+		final Double averageSheetGroupByCurrency2;
+		final Double deviationSheetGroupByCurrency1;
+		final Double deviationSheetGroupByCurrency2;
+		
 
 		numPrivateTask = this.repository.numPrivateTask();
 		numPublicTask = this.repository.numPublicTask();
@@ -114,6 +127,10 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		numCurrentTask = this.repository.numCurrentTask();
 		numExecutions = this.repository.numExecutions();
 		numWorkloads = this.repository.numWorkloads();
+		
+		ratioShoutsFlaggedTrue = this.repository.ratioOfShoutsFlaggedTrue();
+		ratioShoutsFlaggedFalse = this.repository.ratioOfShoutsFlaggedFalse();
+		ratioShoutsYear2020 = this.repository.ratioOfShoutsYear2020();
 		
 
 		result = new Dashboard();
@@ -124,7 +141,22 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		result.setNumExecutions(this.parsenumExecutions(numExecutions));
 		result.setNumWorkloads(this.parseWorkload(numWorkloads));
 		
-
+		final List<Double> averageSheetGroupByCurrency = this.repository.averageSheetGroupByCurrency();
+		final List<Double> deviationSheetGroupByCurrency = this.repository.deviationSheetGroupByCurrency();
+	
+		averageSheetGroupByCurrency1 = averageSheetGroupByCurrency.get(0);
+		averageSheetGroupByCurrency2 =averageSheetGroupByCurrency.get(1);
+		deviationSheetGroupByCurrency1 = deviationSheetGroupByCurrency.get(0);
+		deviationSheetGroupByCurrency2 = deviationSheetGroupByCurrency.get(1);
+		
+		result.setRatioShoutsFlaggedTrue(ratioShoutsFlaggedTrue);
+		result.setRatioShoutsFlaggedFalse(ratioShoutsFlaggedFalse);
+		result.setRatioShoutsYear2020(ratioShoutsYear2020);
+		result.setAverageSheetGroupByCurrency1(averageSheetGroupByCurrency1);
+		result.setAverageSheetGroupByCurrency2(averageSheetGroupByCurrency2);
+		result.setDeviationSheetGroupByCurrency1(deviationSheetGroupByCurrency1);
+		result.setDeviationSheetGroupByCurrency2(deviationSheetGroupByCurrency2);
+	
 		return result;
 	}
 
