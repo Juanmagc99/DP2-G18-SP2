@@ -2,10 +2,19 @@
 
 anonymous.shout.form.label.author = Autor:
 anonymous.shout.form.label.text = Texto:
-anonymous.shout.form.label.info= Info:
+anonymous.shout.form.label.info= Enlace:
 anonymous.shout.form.button.create = Gritar
 anonymous.shout.form.button.return = Volver
 anonymous.shout.form.label.spam = Por favor no grite spam
+
+anonymous.shout.form.label.infoDate = Info-Hoja Fecha
+anonymous.shout.form.label.infoMoney = Info-Hoja Dinero
+anonymous.shout.form.label.infoFlag = Info-Sheet Banderín
+
+anonymous.shout.list.label.sheet.infoDate = Info-Hoja Fecha
+anonymous.shout.list.label.sheet.infoMoney.currency = Info-Hoja Moneda
+anonymous.shout.list.label.sheet.infoMoney.amount = Info-Hoja Cantidad
+anonymous.shout.list.label.sheet.infoFlag = Info-Hoja Banderín
  
 anonymous.shout.list.label.moment = Momento
 anonymous.shout.list.label.author = Autor
