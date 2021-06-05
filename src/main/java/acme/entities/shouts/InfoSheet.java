@@ -25,7 +25,7 @@ public class InfoSheet extends DomainEntity {
 
 	/*@NotNull
 	@Column(unique = true)
-	@Temporal(TemporalType.DATE) //YYYY/MM/DD ERROR: Pide hora en el formulario, no deberia
+	@Temporal(TemporalType.DATE) // yyyy/MM/dd ERROR: Pide hora en el formulario, no deberia
 	protected Date		infoDate;*/
 	
 	@NotBlank
