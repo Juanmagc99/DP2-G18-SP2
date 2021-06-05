@@ -11,3 +11,8 @@ anonymous.shout.list.label.moment = Momento
 anonymous.shout.list.label.author = Autor
 anonymous.shout.list.label.text= Texto
 anonymous.shout.list.label.info=Enlace
+
+anonymous.shout.sheet.amount = Debe ser positivo
+anonymous.shout.sheet.date.current = Debe ser la fecha actual
+anonymous.shout.sheet.date.duplicate = Ya ha gritado hoy
+anonymous.shout.sheet.currency = Solo se admite EUR y USD

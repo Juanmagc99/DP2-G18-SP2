@@ -25,12 +25,10 @@ public class InfoSheet extends DomainEntity {
 
 
 	/*@NotNull
-	@Column(unique = true)
-	@Temporal(TemporalType.DATE) // yyyy/MM/dd ERROR: Pide hora en el formulario, no deberia
-	protected Date		infoDate;*/
+	@DateTimeFormat(pattern = "yyyy/MM/dd")
+	protected LocalDate		infoDate;*/
 	
 	@NotBlank
-	//@Column(unique = true)
 	@Pattern(regexp = "([12]\\d{3}/(0[1-9]|1[0-2])/(0[1-9]|[12]\\d|3[01]))", message = "default.error.conversion")
 	protected String		infoDate;
 

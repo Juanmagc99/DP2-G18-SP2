@@ -2,7 +2,10 @@ package acme.features.anonymous.shout;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.Collection;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,6 +16,7 @@ import acme.features.administrator.configuration.SpamService;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
+import acme.framework.datatypes.Money;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractCreateService;
 
@@ -70,6 +74,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		
 		sheet.setInfoStamp(moment);
 
+		//Creating relation
 		result = new Shout();
 		result.setMoment(moment);
 		result.setSheet(sheet);
@@ -89,19 +94,51 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 			errors.state(request, this.spamService.validateNoSpam(entity.getText()), "text", "anonymous.shout.form.label.spam", "spam");			
 		}
 		
-		if(entity.getSheet().getInfoDate() != null) {
+		
+		if(!errors.hasErrors("sheet.infoMoney")){
+			//Check if the amount is positive
+            errors.state(request, entity.getSheet().getInfoMoney().getAmount() >=0, "sheet.infoMoney", "anonymous.shout.sheet.amount");
+        }
+		
+		if(!errors.hasErrors("sheet.infoDate")){
+			//Check if date is current
+			//Parse date from form to LocalDate
 			final String sheetDateString = entity.getSheet().getInfoDate();
 			final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd");
-			final LocalDate sheetDate = LocalDate.parse(sheetDateString, dtf);
-			
+            final LocalDate sheetDate = LocalDate.parse(sheetDateString, dtf);
+            
+            //Get current date as LocalDate
 			final LocalDate today = LocalDate.now();
 			
-			System.out.println(sheetDateString);
-			System.out.println(sheetDate);
-			System.out.println(today);
+			errors.state(request, sheetDate.isEqual(today), "sheet.infoDate", "anonymous.shout.sheet.date.current");
 			
-			errors.state(request, !sheetDate.equals(today), "sheet.infoDate", "anonymous.shout.form.label.infoDate");
-
+			//Check if date is unique
+			final Collection<Shout> allShouts = this.repository.findMany();
+			final Set<String> setDates = new HashSet<>();
+			Boolean uniqueDate = true;
+			
+			//Add all dates of existing Shouts to a Set
+			for (final Shout s : allShouts) {
+				setDates.add(s.getSheet().getInfoDate()); 			
+			}
+			
+			//Get date of introduced Shout in the form
+			final String sDate = entity.getSheet().getInfoDate();
+			
+			//Tries to add this new date to the Set. Sets don´t allow duplicates, so if add fails, is NOT unique
+			if (!setDates.add(sDate)){ 								
+				uniqueDate = false;
+			}
+			
+			errors.state(request, uniqueDate, "sheet.infoDate", "anonymous.shout.sheet.date.duplicate");
+		}
+		
+		if(!errors.hasErrors("sheet.infoMoney")) {
+			final Money money = entity.getSheet().getInfoMoney();
+			final String currency = money.getCurrency();
+			
+			//Only DOLLARS and EUROS are allowed
+			errors.state(request, (currency.equals("EUR") || currency.equals("USD")), "sheet.infoMoney", "anonymous.shout.sheet.currency");	
 		}
 		
 		if(entity.getInfo() != null)	errors.state(request, this.spamService.validateNoSpam(entity.getInfo()), "info", "anonymous.shout.form.label.spam", "spam");

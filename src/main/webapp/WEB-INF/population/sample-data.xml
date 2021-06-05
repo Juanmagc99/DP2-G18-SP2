@@ -19,7 +19,6 @@
 
 	<import resource="classpath:/WEB-INF/population/conversion-service.xml"/>	
 	
-	
 	<bean id="sheet1" class="acme.entities.shouts.InfoSheet">
 		<property name="infoDate" value="2020/01/01"></property>
 		<property name="infoStamp" value="2021/06/01 19:39"></property>
