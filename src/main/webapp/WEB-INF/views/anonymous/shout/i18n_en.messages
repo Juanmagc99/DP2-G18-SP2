@@ -11,3 +11,8 @@ anonymous.shout.list.label.moment = Moment
 anonymous.shout.list.label.author = Author
 anonymous.shout.list.label.text= Text
 anonymous.shout.list.label.info=URL
+
+anonymous.shout.sheet.amount = Must be positive
+anonymous.shout.sheet.date.current = Must be the current date
+anonymous.shout.sheet.date.duplicate = You already shouted today
+anonymous.shout.sheet.currency = Only EUR and USD are allowed

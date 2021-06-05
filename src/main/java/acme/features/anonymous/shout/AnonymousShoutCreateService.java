@@ -94,6 +94,12 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 			errors.state(request, this.spamService.validateNoSpam(entity.getText()), "text", "anonymous.shout.form.label.spam", "spam");			
 		}
 		
+		
+		if(!errors.hasErrors("sheet.infoMoney")){
+			//Check if the amount is positive
+            errors.state(request, entity.getSheet().getInfoMoney().getAmount() >=0, "sheet.infoMoney", "anonymous.shout.sheet.amount");
+        }
+		
 		if(!errors.hasErrors("sheet.infoDate")){
 			//Check if date is current
 			//Parse date from form to LocalDate
@@ -104,7 +110,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
             //Get current date as LocalDate
 			final LocalDate today = LocalDate.now();
 			
-			errors.state(request, sheetDate.isEqual(today), "sheet.infoDate", "Not current");
+			errors.state(request, sheetDate.isEqual(today), "sheet.infoDate", "anonymous.shout.sheet.date.current");
 			
 			//Check if date is unique
 			final Collection<Shout> allShouts = this.repository.findMany();
@@ -124,7 +130,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 				uniqueDate = false;
 			}
 			
-			errors.state(request, uniqueDate, "sheet.infoDate", "Duplicate");
+			errors.state(request, uniqueDate, "sheet.infoDate", "anonymous.shout.sheet.date.duplicate");
 		}
 		
 		if(!errors.hasErrors("sheet.infoMoney")) {
@@ -132,7 +138,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 			final String currency = money.getCurrency();
 			
 			//Only DOLLARS and EUROS are allowed
-			errors.state(request, (currency.equals("EUR") || currency.equals("USD")), "sheet.infoMoney", "anonymous.shout.form.label.infoMoney");	
+			errors.state(request, (currency.equals("EUR") || currency.equals("USD")), "sheet.infoMoney", "anonymous.shout.sheet.currency");	
 		}
 		
 		if(entity.getInfo() != null)	errors.state(request, this.spamService.validateNoSpam(entity.getInfo()), "info", "anonymous.shout.form.label.spam", "spam");
