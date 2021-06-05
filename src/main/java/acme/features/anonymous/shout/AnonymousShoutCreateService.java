@@ -13,6 +13,7 @@ import acme.features.administrator.configuration.SpamService;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
+import acme.framework.datatypes.Money;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractCreateService;
 
@@ -89,19 +90,24 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 			errors.state(request, this.spamService.validateNoSpam(entity.getText()), "text", "anonymous.shout.form.label.spam", "spam");			
 		}
 		
-		if(entity.getSheet().getInfoDate() != null) {
+		if(!errors.hasErrors("sheet.infoDate")){
+			//Parse date from form to LocalDate
 			final String sheetDateString = entity.getSheet().getInfoDate();
 			final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd");
-			final LocalDate sheetDate = LocalDate.parse(sheetDateString, dtf);
-			
+            final LocalDate sheetDate = LocalDate.parse(sheetDateString, dtf);
+            
+            //Get current date as LocalDate
 			final LocalDate today = LocalDate.now();
 			
-			System.out.println(sheetDateString);
-			System.out.println(sheetDate);
-			System.out.println(today);
+			errors.state(request, sheetDate.isEqual(today), "sheet.infoDate", "anonymous.shout.form.label.infoDate");
+		}
+		
+		if(!errors.hasErrors("sheet.infoMoney")) {
+			final Money money = entity.getSheet().getInfoMoney();
+			final String currency = money.getCurrency();
 			
-			errors.state(request, !sheetDate.equals(today), "sheet.infoDate", "anonymous.shout.form.label.infoDate");
-
+			//Only DOLLARS and EUROS are allowed
+			errors.state(request, (currency.equals("EUR") || currency.equals("USD")), "sheet.infoMoney", "anonymous.shout.form.label.infoMoney");	
 		}
 		
 		if(entity.getInfo() != null)	errors.state(request, this.spamService.validateNoSpam(entity.getInfo()), "info", "anonymous.shout.form.label.spam", "spam");

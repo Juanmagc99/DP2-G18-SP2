@@ -4053,3 +4053,30 @@ INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam09 = acme.ent
 INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam10 = acme.entities.configuration.Spam{id=40, version=0}
 INFO [acme.framework.utilities.DatabasePopulator] > Persisting configuration01 = acme.entities.configuration.Configuration{id=41, version=0}
 INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP POST /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:1949): Text '01/01/2020' could not be parsed at index 0
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP POST /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:1949): Text '01/01/2020' could not be parsed at index 0
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP POST /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:1949): Text '01/01/2020' could not be parsed at index 0
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP POST /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:1949): Text '2020/01/01' could not be parsed at index 4
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP POST /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:1949): Text '2020/01/01' could not be parsed at index 4
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP POST /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:1949): Text '2021/06/05' could not be parsed at index 4
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP POST /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:1949): Text '2020/01/01' could not be parsed at index 4
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP POST /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:1949): Text '2021/05/06' could not be parsed at index 4
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP POST /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.time.format.DateTimeFormatter.parseResolved0(DateTimeFormatter.java:1949): Text '2020/01/01' could not be parsed at index 4
