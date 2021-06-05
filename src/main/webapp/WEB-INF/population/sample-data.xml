@@ -20,7 +20,7 @@
 	<import resource="classpath:/WEB-INF/population/conversion-service.xml"/>	
 	
 	
-	<!-- Shouts -->
+	<!-- Shouts 
 <bean id="shout01" class="acme.entities.shouts.Shout">
         <property name="moment" value="2021/05/31 19:30"/>
         <property name="author" value="Jhon Doe"/>
@@ -63,6 +63,7 @@
         <property name="text" value="We have a reunion today"/>
         <property name="info" value="https://discord.com"/>
     </bean>
+    -->
 
 	<bean name="managerUserAccount1" class="acme.framework.entities.UserAccount">
 		<property name="username" value="manager" />
