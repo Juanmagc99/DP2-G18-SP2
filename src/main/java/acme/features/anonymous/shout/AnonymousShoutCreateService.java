@@ -74,6 +74,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		
 		sheet.setInfoStamp(moment);
 
+		//Creating relation
 		result = new Shout();
 		result.setMoment(moment);
 		result.setSheet(sheet);
