@@ -73,7 +73,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		result = new Shout();
 		result.setMoment(moment);
 		result.setSheet(sheet);
-		sheet.setShout(result);
+		
 		
 		return result;
 	}

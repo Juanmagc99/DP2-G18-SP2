@@ -4053,3 +4053,1810 @@ INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam09 = acme.ent
 INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam10 = acme.entities.configuration.Spam{id=40, version=0}
 INFO [acme.framework.utilities.DatabasePopulator] > Persisting configuration01 = acme.entities.configuration.Configuration{id=41, version=0}
 INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 23224 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 23968 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 23548 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 4332 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 21412 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 15696 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Started Launcher in 14.367 seconds (JVM running for 15.465)
+INFO [acme.framework.utilities.DatabasePopulator] Populating sample data
+INFO [acme.framework.utilities.DatabasePopulator] Recreating schema
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/initial-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousAnonymous ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAdministrator ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for anonymousUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for anonymousAnonymous.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for administratorUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for administratorAdministrator.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for administratorAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousUserAccount = acme.framework.entities.UserAccount{id=1, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousAnonymous = acme.framework.entities.Anonymous{id=2, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorUserAccount = acme.framework.entities.UserAccount{id=3, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAdministrator = acme.framework.entities.Administrator{id=4, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAuthenticated = acme.framework.entities.Authenticated{id=5, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/sample-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerUserAccount1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerManager ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task11 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task12 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task13 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task14 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task15 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task16 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating configuration01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for shout01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for shout02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for shout03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for shout04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for shout05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 5 for shout06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 6 for managerUserAccount1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 7 for managerManager.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 8 for managerAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 9 for task01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 10 for task02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 11 for task03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 12 for task04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 13 for task05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 14 for task06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 15 for task07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 16 for task08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 17 for task09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 18 for task10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 19 for task11.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 20 for task12.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 21 for task13.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 22 for task14.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 23 for task15.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 24 for task16.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 25 for spam01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 26 for spam02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 27 for spam03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 28 for spam04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 29 for spam05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 30 for spam06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 31 for spam07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 32 for spam08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 33 for spam09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 34 for spam10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 35 for configuration01.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout01 = acme.entities.shouts.Shout{id=6, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout02 = acme.entities.shouts.Shout{id=7, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout03 = acme.entities.shouts.Shout{id=8, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout04 = acme.entities.shouts.Shout{id=9, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout05 = acme.entities.shouts.Shout{id=10, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout06 = acme.entities.shouts.Shout{id=11, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerUserAccount1 = acme.framework.entities.UserAccount{id=12, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerManager = acme.entities.roles.Manager{id=13, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerAuthenticated = acme.framework.entities.Authenticated{id=14, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task01 = acme.entities.tasks.Task{id=15, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task02 = acme.entities.tasks.Task{id=16, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task03 = acme.entities.tasks.Task{id=17, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task04 = acme.entities.tasks.Task{id=18, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task05 = acme.entities.tasks.Task{id=19, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task06 = acme.entities.tasks.Task{id=20, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task07 = acme.entities.tasks.Task{id=21, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task08 = acme.entities.tasks.Task{id=22, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task09 = acme.entities.tasks.Task{id=23, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task10 = acme.entities.tasks.Task{id=24, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task11 = acme.entities.tasks.Task{id=25, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task12 = acme.entities.tasks.Task{id=26, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task13 = acme.entities.tasks.Task{id=27, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task14 = acme.entities.tasks.Task{id=28, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task15 = acme.entities.tasks.Task{id=29, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task16 = acme.entities.tasks.Task{id=30, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam01 = acme.entities.configuration.Spam{id=31, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam02 = acme.entities.configuration.Spam{id=32, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam03 = acme.entities.configuration.Spam{id=33, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam04 = acme.entities.configuration.Spam{id=34, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam05 = acme.entities.configuration.Spam{id=35, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam06 = acme.entities.configuration.Spam{id=36, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam07 = acme.entities.configuration.Spam{id=37, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam08 = acme.entities.configuration.Spam{id=38, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam09 = acme.entities.configuration.Spam{id=39, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam10 = acme.entities.configuration.Spam{id=40, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting configuration01 = acme.entities.configuration.Configuration{id=41, version=0}
+INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 2016 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 12816 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 2828 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 20780 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 3044 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Started Launcher in 12.097 seconds (JVM running for 13.429)
+INFO [acme.framework.utilities.DatabasePopulator] Populating sample data
+INFO [acme.framework.utilities.DatabasePopulator] Recreating schema
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/initial-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousAnonymous ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAdministrator ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for anonymousUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for anonymousAnonymous.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for administratorUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for administratorAdministrator.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for administratorAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousUserAccount = acme.framework.entities.UserAccount{id=1, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousAnonymous = acme.framework.entities.Anonymous{id=2, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorUserAccount = acme.framework.entities.UserAccount{id=3, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAdministrator = acme.framework.entities.Administrator{id=4, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAuthenticated = acme.framework.entities.Authenticated{id=5, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/sample-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerUserAccount1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerManager ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task11 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task12 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task13 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task14 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task15 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task16 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating configuration01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for shout01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for shout02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for shout03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for shout04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for shout05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 5 for shout06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 6 for managerUserAccount1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 7 for managerManager.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 8 for managerAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 9 for task01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 10 for task02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 11 for task03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 12 for task04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 13 for task05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 14 for task06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 15 for task07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 16 for task08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 17 for task09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 18 for task10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 19 for task11.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 20 for task12.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 21 for task13.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 22 for task14.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 23 for task15.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 24 for task16.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 25 for spam01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 26 for spam02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 27 for spam03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 28 for spam04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 29 for spam05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 30 for spam06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 31 for spam07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 32 for spam08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 33 for spam09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 34 for spam10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 35 for configuration01.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout01 = acme.entities.shouts.Shout{id=6, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout02 = acme.entities.shouts.Shout{id=7, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout03 = acme.entities.shouts.Shout{id=8, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout04 = acme.entities.shouts.Shout{id=9, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout05 = acme.entities.shouts.Shout{id=10, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout06 = acme.entities.shouts.Shout{id=11, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerUserAccount1 = acme.framework.entities.UserAccount{id=12, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerManager = acme.entities.roles.Manager{id=13, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerAuthenticated = acme.framework.entities.Authenticated{id=14, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task01 = acme.entities.tasks.Task{id=15, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task02 = acme.entities.tasks.Task{id=16, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task03 = acme.entities.tasks.Task{id=17, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task04 = acme.entities.tasks.Task{id=18, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task05 = acme.entities.tasks.Task{id=19, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task06 = acme.entities.tasks.Task{id=20, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task07 = acme.entities.tasks.Task{id=21, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task08 = acme.entities.tasks.Task{id=22, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task09 = acme.entities.tasks.Task{id=23, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task10 = acme.entities.tasks.Task{id=24, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task11 = acme.entities.tasks.Task{id=25, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task12 = acme.entities.tasks.Task{id=26, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task13 = acme.entities.tasks.Task{id=27, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task14 = acme.entities.tasks.Task{id=28, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task15 = acme.entities.tasks.Task{id=29, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task16 = acme.entities.tasks.Task{id=30, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam01 = acme.entities.configuration.Spam{id=31, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam02 = acme.entities.configuration.Spam{id=32, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam03 = acme.entities.configuration.Spam{id=33, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam04 = acme.entities.configuration.Spam{id=34, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam05 = acme.entities.configuration.Spam{id=35, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam06 = acme.entities.configuration.Spam{id=36, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam07 = acme.entities.configuration.Spam{id=37, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam08 = acme.entities.configuration.Spam{id=38, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam09 = acme.entities.configuration.Spam{id=39, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam10 = acme.entities.configuration.Spam{id=40, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting configuration01 = acme.entities.configuration.Configuration{id=41, version=0}
+INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 21956 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Started Launcher in 12.211 seconds (JVM running for 13.353)
+INFO [acme.framework.utilities.DatabasePopulator] Populating sample data
+INFO [acme.framework.utilities.DatabasePopulator] Recreating schema
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/initial-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousAnonymous ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAdministrator ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for anonymousUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for anonymousAnonymous.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for administratorUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for administratorAdministrator.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for administratorAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousUserAccount = acme.framework.entities.UserAccount{id=1, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousAnonymous = acme.framework.entities.Anonymous{id=2, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorUserAccount = acme.framework.entities.UserAccount{id=3, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAdministrator = acme.framework.entities.Administrator{id=4, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAuthenticated = acme.framework.entities.Authenticated{id=5, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/sample-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerUserAccount1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerManager ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task11 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task12 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task13 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task14 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task15 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task16 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating configuration01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for shout01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for shout02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for shout03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for shout04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for shout05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 5 for shout06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 6 for managerUserAccount1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 7 for managerManager.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 8 for managerAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 9 for task01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 10 for task02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 11 for task03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 12 for task04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 13 for task05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 14 for task06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 15 for task07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 16 for task08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 17 for task09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 18 for task10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 19 for task11.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 20 for task12.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 21 for task13.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 22 for task14.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 23 for task15.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 24 for task16.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 25 for spam01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 26 for spam02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 27 for spam03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 28 for spam04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 29 for spam05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 30 for spam06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 31 for spam07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 32 for spam08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 33 for spam09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 34 for spam10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 35 for configuration01.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout01 = acme.entities.shouts.Shout{id=6, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout02 = acme.entities.shouts.Shout{id=7, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout03 = acme.entities.shouts.Shout{id=8, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout04 = acme.entities.shouts.Shout{id=9, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout05 = acme.entities.shouts.Shout{id=10, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout06 = acme.entities.shouts.Shout{id=11, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerUserAccount1 = acme.framework.entities.UserAccount{id=12, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerManager = acme.entities.roles.Manager{id=13, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerAuthenticated = acme.framework.entities.Authenticated{id=14, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task01 = acme.entities.tasks.Task{id=15, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task02 = acme.entities.tasks.Task{id=16, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task03 = acme.entities.tasks.Task{id=17, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task04 = acme.entities.tasks.Task{id=18, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task05 = acme.entities.tasks.Task{id=19, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task06 = acme.entities.tasks.Task{id=20, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task07 = acme.entities.tasks.Task{id=21, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task08 = acme.entities.tasks.Task{id=22, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task09 = acme.entities.tasks.Task{id=23, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task10 = acme.entities.tasks.Task{id=24, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task11 = acme.entities.tasks.Task{id=25, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task12 = acme.entities.tasks.Task{id=26, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task13 = acme.entities.tasks.Task{id=27, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task14 = acme.entities.tasks.Task{id=28, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task15 = acme.entities.tasks.Task{id=29, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task16 = acme.entities.tasks.Task{id=30, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam01 = acme.entities.configuration.Spam{id=31, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam02 = acme.entities.configuration.Spam{id=32, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam03 = acme.entities.configuration.Spam{id=33, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam04 = acme.entities.configuration.Spam{id=34, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam05 = acme.entities.configuration.Spam{id=35, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam06 = acme.entities.configuration.Spam{id=36, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam07 = acme.entities.configuration.Spam{id=37, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam08 = acme.entities.configuration.Spam{id=38, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam09 = acme.entities.configuration.Spam{id=39, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam10 = acme.entities.configuration.Spam{id=40, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting configuration01 = acme.entities.configuration.Configuration{id=41, version=0}
+INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 8232 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Started Launcher in 12.317 seconds (JVM running for 13.256)
+INFO [acme.framework.utilities.DatabasePopulator] Populating sample data
+INFO [acme.framework.utilities.DatabasePopulator] Recreating schema
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/initial-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousAnonymous ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAdministrator ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for anonymousUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for anonymousAnonymous.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for administratorUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for administratorAdministrator.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for administratorAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousUserAccount = acme.framework.entities.UserAccount{id=1, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousAnonymous = acme.framework.entities.Anonymous{id=2, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorUserAccount = acme.framework.entities.UserAccount{id=3, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAdministrator = acme.framework.entities.Administrator{id=4, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAuthenticated = acme.framework.entities.Authenticated{id=5, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/sample-data.xml
+INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 10092 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Started Launcher in 11.482 seconds (JVM running for 12.596)
+INFO [acme.framework.utilities.DatabasePopulator] Populating sample data
+INFO [acme.framework.utilities.DatabasePopulator] Recreating schema
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/initial-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousAnonymous ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAdministrator ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for anonymousUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for anonymousAnonymous.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for administratorUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for administratorAdministrator.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for administratorAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousUserAccount = acme.framework.entities.UserAccount{id=1, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousAnonymous = acme.framework.entities.Anonymous{id=2, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorUserAccount = acme.framework.entities.UserAccount{id=3, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAdministrator = acme.framework.entities.Administrator{id=4, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAuthenticated = acme.framework.entities.Authenticated{id=5, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/sample-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet2 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet3 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet4 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet5 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet6 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerUserAccount1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerManager ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task11 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task12 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task13 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task14 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task15 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task16 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating configuration01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for sheet1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for shout01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for sheet2.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for shout02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for sheet3.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 5 for shout03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 6 for sheet4.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 7 for shout04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 8 for sheet5.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 9 for shout05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 10 for sheet6.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 11 for shout06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 12 for managerUserAccount1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 13 for managerManager.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 14 for managerAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 15 for task01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 16 for task02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 17 for task03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 18 for task04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 19 for task05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 20 for task06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 21 for task07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 22 for task08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 23 for task09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 24 for task10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 25 for task11.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 26 for task12.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 27 for task13.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 28 for task14.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 29 for task15.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 30 for task16.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 31 for spam01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 32 for spam02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 33 for spam03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 34 for spam04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 35 for spam05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 36 for spam06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 37 for spam07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 38 for spam08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 39 for spam09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 40 for spam10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 41 for configuration01.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet1 = acme.entities.shouts.InfoSheet{id=6, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout01 = acme.entities.shouts.Shout{id=7, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet2 = acme.entities.shouts.InfoSheet{id=8, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout02 = acme.entities.shouts.Shout{id=9, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet3 = acme.entities.shouts.InfoSheet{id=10, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout03 = acme.entities.shouts.Shout{id=11, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet4 = acme.entities.shouts.InfoSheet{id=12, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout04 = acme.entities.shouts.Shout{id=13, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet5 = acme.entities.shouts.InfoSheet{id=14, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout05 = acme.entities.shouts.Shout{id=15, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet6 = acme.entities.shouts.InfoSheet{id=16, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout06 = acme.entities.shouts.Shout{id=17, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerUserAccount1 = acme.framework.entities.UserAccount{id=18, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerManager = acme.entities.roles.Manager{id=19, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerAuthenticated = acme.framework.entities.Authenticated{id=20, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task01 = acme.entities.tasks.Task{id=21, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task02 = acme.entities.tasks.Task{id=22, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task03 = acme.entities.tasks.Task{id=23, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task04 = acme.entities.tasks.Task{id=24, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task05 = acme.entities.tasks.Task{id=25, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task06 = acme.entities.tasks.Task{id=26, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task07 = acme.entities.tasks.Task{id=27, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task08 = acme.entities.tasks.Task{id=28, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task09 = acme.entities.tasks.Task{id=29, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task10 = acme.entities.tasks.Task{id=30, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task11 = acme.entities.tasks.Task{id=31, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task12 = acme.entities.tasks.Task{id=32, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task13 = acme.entities.tasks.Task{id=33, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task14 = acme.entities.tasks.Task{id=34, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task15 = acme.entities.tasks.Task{id=35, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task16 = acme.entities.tasks.Task{id=36, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam01 = acme.entities.configuration.Spam{id=37, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam02 = acme.entities.configuration.Spam{id=38, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam03 = acme.entities.configuration.Spam{id=39, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam04 = acme.entities.configuration.Spam{id=40, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam05 = acme.entities.configuration.Spam{id=41, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam06 = acme.entities.configuration.Spam{id=42, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam07 = acme.entities.configuration.Spam{id=43, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam08 = acme.entities.configuration.Spam{id=44, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam09 = acme.entities.configuration.Spam{id=45, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam10 = acme.entities.configuration.Spam{id=46, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting configuration01 = acme.entities.configuration.Configuration{id=47, version=0}
+INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'administratorDashboardController': Unsatisfied dependency expressed through field 'showService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'administratorDashboardShowService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'administratorDashboardRepository' defined in acme.features.administrator.dashboard.AdministratorDashboardRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.List acme.features.administrator.dashboard.AdministratorDashboardRepository.averageSheetGroupByCurrency()!
+ERROR [org.springframework.boot.SpringApplication] at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643): Error creating bean with name 'administratorDashboardController': Unsatisfied dependency expressed through field 'showService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'administratorDashboardShowService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'administratorDashboardRepository' defined in acme.features.administrator.dashboard.AdministratorDashboardRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.List acme.features.administrator.dashboard.AdministratorDashboardRepository.averageSheetGroupByCurrency()!
+at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643): Error creating bean with name 'administratorDashboardShowService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'administratorDashboardRepository' defined in acme.features.administrator.dashboard.AdministratorDashboardRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.List acme.features.administrator.dashboard.AdministratorDashboardRepository.averageSheetGroupByCurrency()!
+at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788): Error creating bean with name 'administratorDashboardRepository' defined in acme.features.administrator.dashboard.AdministratorDashboardRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.List acme.features.administrator.dashboard.AdministratorDashboardRepository.averageSheetGroupByCurrency()!
+at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:93): Validation failed for query for method public abstract java.util.List acme.features.administrator.dashboard.AdministratorDashboardRepository.averageSheetGroupByCurrency()!
+at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138): org.hibernate.hql.internal.ast.QuerySyntaxException: Sheet is not mapped [select avg(s.infoMoney.amount) from Sheet s group by s.infoMoney.currency]
+at org.hibernate.hql.internal.ast.QuerySyntaxException.generateQueryException(QuerySyntaxException.java:79): Sheet is not mapped [select avg(s.infoMoney.amount) from Sheet s group by s.infoMoney.currency]
+at org.hibernate.hql.internal.ast.util.SessionFactoryHelper.requireClassPersister(SessionFactoryHelper.java:169): Sheet is not mapped
+WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'administratorDashboardController': Unsatisfied dependency expressed through field 'showService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'administratorDashboardShowService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'administratorDashboardRepository' defined in acme.features.administrator.dashboard.AdministratorDashboardRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.List acme.features.administrator.dashboard.AdministratorDashboardRepository.averageSheetGroupByCurrency()!
+ERROR [org.springframework.boot.SpringApplication] at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643): Error creating bean with name 'administratorDashboardController': Unsatisfied dependency expressed through field 'showService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'administratorDashboardShowService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'administratorDashboardRepository' defined in acme.features.administrator.dashboard.AdministratorDashboardRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.List acme.features.administrator.dashboard.AdministratorDashboardRepository.averageSheetGroupByCurrency()!
+at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643): Error creating bean with name 'administratorDashboardShowService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'administratorDashboardRepository' defined in acme.features.administrator.dashboard.AdministratorDashboardRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.List acme.features.administrator.dashboard.AdministratorDashboardRepository.averageSheetGroupByCurrency()!
+at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788): Error creating bean with name 'administratorDashboardRepository' defined in acme.features.administrator.dashboard.AdministratorDashboardRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.List acme.features.administrator.dashboard.AdministratorDashboardRepository.averageSheetGroupByCurrency()!
+at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:93): Validation failed for query for method public abstract java.util.List acme.features.administrator.dashboard.AdministratorDashboardRepository.averageSheetGroupByCurrency()!
+at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138): org.hibernate.hql.internal.ast.QuerySyntaxException: Sheet is not mapped [select avg(s.infoMoney.amount) from Sheet s group by s.infoMoney.currency]
+at org.hibernate.hql.internal.ast.QuerySyntaxException.generateQueryException(QuerySyntaxException.java:79): Sheet is not mapped [select avg(s.infoMoney.amount) from Sheet s group by s.infoMoney.currency]
+at org.hibernate.hql.internal.ast.util.SessionFactoryHelper.requireClassPersister(SessionFactoryHelper.java:169): Sheet is not mapped
+WARN [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'administratorDashboardController': Unsatisfied dependency expressed through field 'showService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'administratorDashboardShowService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'administratorDashboardRepository' defined in acme.features.administrator.dashboard.AdministratorDashboardRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.List acme.features.administrator.dashboard.AdministratorDashboardRepository.averageSheetGroupByCurrency()!
+ERROR [org.springframework.boot.SpringApplication] at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643): Error creating bean with name 'administratorDashboardController': Unsatisfied dependency expressed through field 'showService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'administratorDashboardShowService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'administratorDashboardRepository' defined in acme.features.administrator.dashboard.AdministratorDashboardRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.List acme.features.administrator.dashboard.AdministratorDashboardRepository.averageSheetGroupByCurrency()!
+at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643): Error creating bean with name 'administratorDashboardShowService': Unsatisfied dependency expressed through field 'repository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'administratorDashboardRepository' defined in acme.features.administrator.dashboard.AdministratorDashboardRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.List acme.features.administrator.dashboard.AdministratorDashboardRepository.averageSheetGroupByCurrency()!
+at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788): Error creating bean with name 'administratorDashboardRepository' defined in acme.features.administrator.dashboard.AdministratorDashboardRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract java.util.List acme.features.administrator.dashboard.AdministratorDashboardRepository.averageSheetGroupByCurrency()!
+at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:93): Validation failed for query for method public abstract java.util.List acme.features.administrator.dashboard.AdministratorDashboardRepository.averageSheetGroupByCurrency()!
+at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138): org.hibernate.hql.internal.ast.QuerySyntaxException: heet is not mapped [select avg(s.infoMoney.amount) from heet InfoSheet group by s.infoMoney.currency]
+at org.hibernate.hql.internal.ast.QuerySyntaxException.generateQueryException(QuerySyntaxException.java:79): heet is not mapped [select avg(s.infoMoney.amount) from heet InfoSheet group by s.infoMoney.currency]
+at org.hibernate.hql.internal.ast.util.SessionFactoryHelper.requireClassPersister(SessionFactoryHelper.java:169): heet is not mapped
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 5800 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Started Launcher in 11.335 seconds (JVM running for 12.57)
+INFO [acme.framework.utilities.DatabasePopulator] Populating sample data
+INFO [acme.framework.utilities.DatabasePopulator] Recreating schema
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/initial-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousAnonymous ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAdministrator ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for anonymousUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for anonymousAnonymous.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for administratorUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for administratorAdministrator.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for administratorAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousUserAccount = acme.framework.entities.UserAccount{id=1, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousAnonymous = acme.framework.entities.Anonymous{id=2, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorUserAccount = acme.framework.entities.UserAccount{id=3, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAdministrator = acme.framework.entities.Administrator{id=4, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAuthenticated = acme.framework.entities.Authenticated{id=5, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/sample-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet2 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet3 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet4 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet5 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet6 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerUserAccount1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerManager ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task11 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task12 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task13 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task14 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task15 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task16 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating configuration01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for sheet1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for shout01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for sheet2.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for shout02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for sheet3.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 5 for shout03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 6 for sheet4.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 7 for shout04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 8 for sheet5.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 9 for shout05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 10 for sheet6.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 11 for shout06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 12 for managerUserAccount1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 13 for managerManager.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 14 for managerAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 15 for task01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 16 for task02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 17 for task03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 18 for task04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 19 for task05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 20 for task06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 21 for task07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 22 for task08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 23 for task09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 24 for task10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 25 for task11.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 26 for task12.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 27 for task13.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 28 for task14.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 29 for task15.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 30 for task16.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 31 for spam01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 32 for spam02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 33 for spam03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 34 for spam04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 35 for spam05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 36 for spam06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 37 for spam07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 38 for spam08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 39 for spam09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 40 for spam10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 41 for configuration01.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet1 = acme.entities.shouts.InfoSheet{id=6, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout01 = acme.entities.shouts.Shout{id=7, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet2 = acme.entities.shouts.InfoSheet{id=8, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout02 = acme.entities.shouts.Shout{id=9, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet3 = acme.entities.shouts.InfoSheet{id=10, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout03 = acme.entities.shouts.Shout{id=11, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet4 = acme.entities.shouts.InfoSheet{id=12, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout04 = acme.entities.shouts.Shout{id=13, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet5 = acme.entities.shouts.InfoSheet{id=14, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout05 = acme.entities.shouts.Shout{id=15, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet6 = acme.entities.shouts.InfoSheet{id=16, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout06 = acme.entities.shouts.Shout{id=17, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerUserAccount1 = acme.framework.entities.UserAccount{id=18, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerManager = acme.entities.roles.Manager{id=19, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerAuthenticated = acme.framework.entities.Authenticated{id=20, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task01 = acme.entities.tasks.Task{id=21, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task02 = acme.entities.tasks.Task{id=22, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task03 = acme.entities.tasks.Task{id=23, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task04 = acme.entities.tasks.Task{id=24, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task05 = acme.entities.tasks.Task{id=25, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task06 = acme.entities.tasks.Task{id=26, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task07 = acme.entities.tasks.Task{id=27, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task08 = acme.entities.tasks.Task{id=28, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task09 = acme.entities.tasks.Task{id=29, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task10 = acme.entities.tasks.Task{id=30, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task11 = acme.entities.tasks.Task{id=31, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task12 = acme.entities.tasks.Task{id=32, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task13 = acme.entities.tasks.Task{id=33, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task14 = acme.entities.tasks.Task{id=34, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task15 = acme.entities.tasks.Task{id=35, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task16 = acme.entities.tasks.Task{id=36, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam01 = acme.entities.configuration.Spam{id=37, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam02 = acme.entities.configuration.Spam{id=38, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam03 = acme.entities.configuration.Spam{id=39, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam04 = acme.entities.configuration.Spam{id=40, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam05 = acme.entities.configuration.Spam{id=41, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam06 = acme.entities.configuration.Spam{id=42, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam07 = acme.entities.configuration.Spam{id=43, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam08 = acme.entities.configuration.Spam{id=44, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam09 = acme.entities.configuration.Spam{id=45, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam10 = acme.entities.configuration.Spam{id=46, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting configuration01 = acme.entities.configuration.Configuration{id=47, version=0}
+INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+WARN [org.hibernate.orm.connections.pooling] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP GET /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64): Index 1 out of bounds for length 1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP GET /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64): Index 1 out of bounds for length 1
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 18336 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Started Launcher in 11.476 seconds (JVM running for 12.812)
+INFO [acme.framework.utilities.DatabasePopulator] Populating sample data
+INFO [acme.framework.utilities.DatabasePopulator] Recreating schema
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/initial-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousAnonymous ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAdministrator ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for anonymousUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for anonymousAnonymous.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for administratorUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for administratorAdministrator.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for administratorAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousUserAccount = acme.framework.entities.UserAccount{id=1, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousAnonymous = acme.framework.entities.Anonymous{id=2, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorUserAccount = acme.framework.entities.UserAccount{id=3, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAdministrator = acme.framework.entities.Administrator{id=4, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAuthenticated = acme.framework.entities.Authenticated{id=5, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/sample-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet2 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet3 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet4 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet5 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet6 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerUserAccount1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerManager ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task11 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task12 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task13 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task14 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task15 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task16 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating configuration01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for sheet1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for shout01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for sheet2.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for shout02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for sheet3.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 5 for shout03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 6 for sheet4.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 7 for shout04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 8 for sheet5.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 9 for shout05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 10 for sheet6.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 11 for shout06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 12 for managerUserAccount1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 13 for managerManager.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 14 for managerAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 15 for task01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 16 for task02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 17 for task03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 18 for task04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 19 for task05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 20 for task06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 21 for task07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 22 for task08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 23 for task09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 24 for task10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 25 for task11.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 26 for task12.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 27 for task13.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 28 for task14.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 29 for task15.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 30 for task16.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 31 for spam01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 32 for spam02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 33 for spam03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 34 for spam04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 35 for spam05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 36 for spam06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 37 for spam07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 38 for spam08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 39 for spam09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 40 for spam10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 41 for configuration01.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet1 = acme.entities.shouts.InfoSheet{id=6, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout01 = acme.entities.shouts.Shout{id=7, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet2 = acme.entities.shouts.InfoSheet{id=8, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout02 = acme.entities.shouts.Shout{id=9, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet3 = acme.entities.shouts.InfoSheet{id=10, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout03 = acme.entities.shouts.Shout{id=11, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet4 = acme.entities.shouts.InfoSheet{id=12, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout04 = acme.entities.shouts.Shout{id=13, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet5 = acme.entities.shouts.InfoSheet{id=14, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout05 = acme.entities.shouts.Shout{id=15, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet6 = acme.entities.shouts.InfoSheet{id=16, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout06 = acme.entities.shouts.Shout{id=17, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerUserAccount1 = acme.framework.entities.UserAccount{id=18, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerManager = acme.entities.roles.Manager{id=19, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerAuthenticated = acme.framework.entities.Authenticated{id=20, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task01 = acme.entities.tasks.Task{id=21, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task02 = acme.entities.tasks.Task{id=22, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task03 = acme.entities.tasks.Task{id=23, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task04 = acme.entities.tasks.Task{id=24, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task05 = acme.entities.tasks.Task{id=25, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task06 = acme.entities.tasks.Task{id=26, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task07 = acme.entities.tasks.Task{id=27, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task08 = acme.entities.tasks.Task{id=28, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task09 = acme.entities.tasks.Task{id=29, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task10 = acme.entities.tasks.Task{id=30, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task11 = acme.entities.tasks.Task{id=31, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task12 = acme.entities.tasks.Task{id=32, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task13 = acme.entities.tasks.Task{id=33, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task14 = acme.entities.tasks.Task{id=34, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task15 = acme.entities.tasks.Task{id=35, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task16 = acme.entities.tasks.Task{id=36, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam01 = acme.entities.configuration.Spam{id=37, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam02 = acme.entities.configuration.Spam{id=38, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam03 = acme.entities.configuration.Spam{id=39, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam04 = acme.entities.configuration.Spam{id=40, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam05 = acme.entities.configuration.Spam{id=41, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam06 = acme.entities.configuration.Spam{id=42, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam07 = acme.entities.configuration.Spam{id=43, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam08 = acme.entities.configuration.Spam{id=44, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam09 = acme.entities.configuration.Spam{id=45, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam10 = acme.entities.configuration.Spam{id=46, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting configuration01 = acme.entities.configuration.Configuration{id=47, version=0}
+INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP GET /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64): Index 1 out of bounds for length 1
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 22572 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Started Launcher in 12.685 seconds (JVM running for 13.619)
+INFO [acme.framework.utilities.DatabasePopulator] Populating sample data
+INFO [acme.framework.utilities.DatabasePopulator] Recreating schema
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/initial-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousAnonymous ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAdministrator ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for anonymousUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for anonymousAnonymous.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for administratorUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for administratorAdministrator.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for administratorAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousUserAccount = acme.framework.entities.UserAccount{id=1, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousAnonymous = acme.framework.entities.Anonymous{id=2, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorUserAccount = acme.framework.entities.UserAccount{id=3, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAdministrator = acme.framework.entities.Administrator{id=4, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAuthenticated = acme.framework.entities.Authenticated{id=5, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/sample-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet2 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet3 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet4 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet5 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet6 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerUserAccount1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerManager ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task11 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task12 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task13 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task14 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task15 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task16 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating configuration01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for sheet1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for shout01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for sheet2.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for shout02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for sheet3.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 5 for shout03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 6 for sheet4.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 7 for shout04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 8 for sheet5.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 9 for shout05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 10 for sheet6.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 11 for shout06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 12 for managerUserAccount1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 13 for managerManager.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 14 for managerAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 15 for task01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 16 for task02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 17 for task03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 18 for task04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 19 for task05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 20 for task06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 21 for task07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 22 for task08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 23 for task09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 24 for task10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 25 for task11.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 26 for task12.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 27 for task13.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 28 for task14.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 29 for task15.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 30 for task16.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 31 for spam01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 32 for spam02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 33 for spam03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 34 for spam04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 35 for spam05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 36 for spam06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 37 for spam07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 38 for spam08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 39 for spam09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 40 for spam10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 41 for configuration01.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet1 = acme.entities.shouts.InfoSheet{id=6, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout01 = acme.entities.shouts.Shout{id=7, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet2 = acme.entities.shouts.InfoSheet{id=8, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout02 = acme.entities.shouts.Shout{id=9, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet3 = acme.entities.shouts.InfoSheet{id=10, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout03 = acme.entities.shouts.Shout{id=11, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet4 = acme.entities.shouts.InfoSheet{id=12, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout04 = acme.entities.shouts.Shout{id=13, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet5 = acme.entities.shouts.InfoSheet{id=14, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout05 = acme.entities.shouts.Shout{id=15, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet6 = acme.entities.shouts.InfoSheet{id=16, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout06 = acme.entities.shouts.Shout{id=17, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerUserAccount1 = acme.framework.entities.UserAccount{id=18, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerManager = acme.entities.roles.Manager{id=19, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerAuthenticated = acme.framework.entities.Authenticated{id=20, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task01 = acme.entities.tasks.Task{id=21, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task02 = acme.entities.tasks.Task{id=22, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task03 = acme.entities.tasks.Task{id=23, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task04 = acme.entities.tasks.Task{id=24, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task05 = acme.entities.tasks.Task{id=25, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task06 = acme.entities.tasks.Task{id=26, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task07 = acme.entities.tasks.Task{id=27, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task08 = acme.entities.tasks.Task{id=28, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task09 = acme.entities.tasks.Task{id=29, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task10 = acme.entities.tasks.Task{id=30, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task11 = acme.entities.tasks.Task{id=31, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task12 = acme.entities.tasks.Task{id=32, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task13 = acme.entities.tasks.Task{id=33, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task14 = acme.entities.tasks.Task{id=34, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task15 = acme.entities.tasks.Task{id=35, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task16 = acme.entities.tasks.Task{id=36, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam01 = acme.entities.configuration.Spam{id=37, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam02 = acme.entities.configuration.Spam{id=38, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam03 = acme.entities.configuration.Spam{id=39, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam04 = acme.entities.configuration.Spam{id=40, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam05 = acme.entities.configuration.Spam{id=41, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam06 = acme.entities.configuration.Spam{id=42, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam07 = acme.entities.configuration.Spam{id=43, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam08 = acme.entities.configuration.Spam{id=44, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam09 = acme.entities.configuration.Spam{id=45, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam10 = acme.entities.configuration.Spam{id=46, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting configuration01 = acme.entities.configuration.Configuration{id=47, version=0}
+INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP GET /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64): Index 1 out of bounds for length 1
+WARN [org.hibernate.orm.connections.pooling] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP GET /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64): Index 1 out of bounds for length 1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP GET /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: acme.framework.helpers.Assert.state(Assert.java:45): Access is not authorised
+ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/Acme-Planner].[dispatcherServlet]] at acme.framework.utilities.RememberMeLogoutHandler.logout(RememberMeLogoutHandler.java:31): java.lang.AssertionError
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP GET /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200): Filter execution threw an exception
+java.lang.AssertionError
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP POST /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:250): Request method 'POST' not supported
+WARN [org.hibernate.orm.connections.pooling] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 21920 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Started Launcher in 14.813 seconds (JVM running for 16.854)
+INFO [acme.framework.utilities.DatabasePopulator] Populating sample data
+INFO [acme.framework.utilities.DatabasePopulator] Recreating schema
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/initial-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousAnonymous ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAdministrator ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for anonymousUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for anonymousAnonymous.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for administratorUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for administratorAdministrator.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for administratorAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousUserAccount = acme.framework.entities.UserAccount{id=1, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousAnonymous = acme.framework.entities.Anonymous{id=2, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorUserAccount = acme.framework.entities.UserAccount{id=3, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAdministrator = acme.framework.entities.Administrator{id=4, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAuthenticated = acme.framework.entities.Authenticated{id=5, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/sample-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet2 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet3 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet4 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet5 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet6 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerUserAccount1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerManager ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task11 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task12 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task13 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task14 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task15 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task16 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating configuration01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for sheet1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for shout01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for sheet2.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for shout02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for sheet3.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 5 for shout03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 6 for sheet4.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 7 for shout04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 8 for sheet5.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 9 for shout05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 10 for sheet6.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 11 for shout06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 12 for managerUserAccount1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 13 for managerManager.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 14 for managerAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 15 for task01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 16 for task02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 17 for task03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 18 for task04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 19 for task05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 20 for task06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 21 for task07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 22 for task08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 23 for task09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 24 for task10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 25 for task11.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 26 for task12.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 27 for task13.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 28 for task14.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 29 for task15.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 30 for task16.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 31 for spam01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 32 for spam02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 33 for spam03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 34 for spam04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 35 for spam05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 36 for spam06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 37 for spam07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 38 for spam08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 39 for spam09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 40 for spam10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 41 for configuration01.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet1 = acme.entities.shouts.InfoSheet{id=6, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout01 = acme.entities.shouts.Shout{id=7, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet2 = acme.entities.shouts.InfoSheet{id=8, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout02 = acme.entities.shouts.Shout{id=9, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet3 = acme.entities.shouts.InfoSheet{id=10, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout03 = acme.entities.shouts.Shout{id=11, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet4 = acme.entities.shouts.InfoSheet{id=12, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout04 = acme.entities.shouts.Shout{id=13, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet5 = acme.entities.shouts.InfoSheet{id=14, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout05 = acme.entities.shouts.Shout{id=15, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet6 = acme.entities.shouts.InfoSheet{id=16, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout06 = acme.entities.shouts.Shout{id=17, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerUserAccount1 = acme.framework.entities.UserAccount{id=18, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerManager = acme.entities.roles.Manager{id=19, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerAuthenticated = acme.framework.entities.Authenticated{id=20, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task01 = acme.entities.tasks.Task{id=21, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task02 = acme.entities.tasks.Task{id=22, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task03 = acme.entities.tasks.Task{id=23, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task04 = acme.entities.tasks.Task{id=24, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task05 = acme.entities.tasks.Task{id=25, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task06 = acme.entities.tasks.Task{id=26, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task07 = acme.entities.tasks.Task{id=27, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task08 = acme.entities.tasks.Task{id=28, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task09 = acme.entities.tasks.Task{id=29, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task10 = acme.entities.tasks.Task{id=30, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task11 = acme.entities.tasks.Task{id=31, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task12 = acme.entities.tasks.Task{id=32, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task13 = acme.entities.tasks.Task{id=33, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task14 = acme.entities.tasks.Task{id=34, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task15 = acme.entities.tasks.Task{id=35, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task16 = acme.entities.tasks.Task{id=36, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam01 = acme.entities.configuration.Spam{id=37, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam02 = acme.entities.configuration.Spam{id=38, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam03 = acme.entities.configuration.Spam{id=39, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam04 = acme.entities.configuration.Spam{id=40, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam05 = acme.entities.configuration.Spam{id=41, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam06 = acme.entities.configuration.Spam{id=42, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam07 = acme.entities.configuration.Spam{id=43, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam08 = acme.entities.configuration.Spam{id=44, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam09 = acme.entities.configuration.Spam{id=45, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam10 = acme.entities.configuration.Spam{id=46, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting configuration01 = acme.entities.configuration.Configuration{id=47, version=0}
+INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 23748 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Started Launcher in 14.154 seconds (JVM running for 15.604)
+INFO [acme.framework.utilities.DatabasePopulator] Populating initial data
+INFO [acme.framework.utilities.DatabasePopulator] Recreating schema
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/initial-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousAnonymous ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAdministrator ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for anonymousUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for anonymousAnonymous.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for administratorUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for administratorAdministrator.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for administratorAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousUserAccount = acme.framework.entities.UserAccount{id=1, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousAnonymous = acme.framework.entities.Anonymous{id=2, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorUserAccount = acme.framework.entities.UserAccount{id=3, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAdministrator = acme.framework.entities.Administrator{id=4, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAuthenticated = acme.framework.entities.Authenticated{id=5, version=0}
+INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP GET /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734): begin 0, end -1, length 4
+WARN [org.hibernate.orm.connections.pooling] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 18728 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 11552 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Started Launcher in 7.065 seconds (JVM running for 7.72)
+INFO [acme.framework.utilities.DatabasePopulator] Populating sample data
+INFO [acme.framework.utilities.DatabasePopulator] Recreating schema
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/initial-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousAnonymous ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAdministrator ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for anonymousUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for anonymousAnonymous.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for administratorUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for administratorAdministrator.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for administratorAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousUserAccount = acme.framework.entities.UserAccount{id=1, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousAnonymous = acme.framework.entities.Anonymous{id=2, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorUserAccount = acme.framework.entities.UserAccount{id=3, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAdministrator = acme.framework.entities.Administrator{id=4, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAuthenticated = acme.framework.entities.Authenticated{id=5, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/sample-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet2 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet3 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet4 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet5 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet6 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerUserAccount1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerManager ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task11 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task12 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task13 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task14 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task15 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task16 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating configuration01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for sheet1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for shout01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for sheet2.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for shout02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for sheet3.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 5 for shout03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 6 for sheet4.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 7 for shout04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 8 for sheet5.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 9 for shout05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 10 for sheet6.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 11 for shout06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 12 for managerUserAccount1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 13 for managerManager.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 14 for managerAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 15 for task01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 16 for task02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 17 for task03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 18 for task04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 19 for task05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 20 for task06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 21 for task07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 22 for task08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 23 for task09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 24 for task10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 25 for task11.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 26 for task12.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 27 for task13.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 28 for task14.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 29 for task15.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 30 for task16.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 31 for spam01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 32 for spam02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 33 for spam03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 34 for spam04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 35 for spam05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 36 for spam06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 37 for spam07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 38 for spam08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 39 for spam09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 40 for spam10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 41 for configuration01.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet1 = acme.entities.shouts.InfoSheet{id=6, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout01 = acme.entities.shouts.Shout{id=7, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet2 = acme.entities.shouts.InfoSheet{id=8, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout02 = acme.entities.shouts.Shout{id=9, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet3 = acme.entities.shouts.InfoSheet{id=10, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout03 = acme.entities.shouts.Shout{id=11, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet4 = acme.entities.shouts.InfoSheet{id=12, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout04 = acme.entities.shouts.Shout{id=13, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet5 = acme.entities.shouts.InfoSheet{id=14, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout05 = acme.entities.shouts.Shout{id=15, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet6 = acme.entities.shouts.InfoSheet{id=16, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout06 = acme.entities.shouts.Shout{id=17, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerUserAccount1 = acme.framework.entities.UserAccount{id=18, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerManager = acme.entities.roles.Manager{id=19, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerAuthenticated = acme.framework.entities.Authenticated{id=20, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task01 = acme.entities.tasks.Task{id=21, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task02 = acme.entities.tasks.Task{id=22, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task03 = acme.entities.tasks.Task{id=23, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task04 = acme.entities.tasks.Task{id=24, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task05 = acme.entities.tasks.Task{id=25, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task06 = acme.entities.tasks.Task{id=26, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task07 = acme.entities.tasks.Task{id=27, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task08 = acme.entities.tasks.Task{id=28, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task09 = acme.entities.tasks.Task{id=29, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task10 = acme.entities.tasks.Task{id=30, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task11 = acme.entities.tasks.Task{id=31, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task12 = acme.entities.tasks.Task{id=32, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task13 = acme.entities.tasks.Task{id=33, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task14 = acme.entities.tasks.Task{id=34, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task15 = acme.entities.tasks.Task{id=35, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task16 = acme.entities.tasks.Task{id=36, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam01 = acme.entities.configuration.Spam{id=37, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam02 = acme.entities.configuration.Spam{id=38, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam03 = acme.entities.configuration.Spam{id=39, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam04 = acme.entities.configuration.Spam{id=40, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam05 = acme.entities.configuration.Spam{id=41, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam06 = acme.entities.configuration.Spam{id=42, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam07 = acme.entities.configuration.Spam{id=43, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam08 = acme.entities.configuration.Spam{id=44, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam09 = acme.entities.configuration.Spam{id=45, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam10 = acme.entities.configuration.Spam{id=46, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting configuration01 = acme.entities.configuration.Configuration{id=47, version=0}
+INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 21716 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Started Launcher in 7.636 seconds (JVM running for 8.436)
+INFO [acme.framework.utilities.DatabasePopulator] Populating sample data
+INFO [acme.framework.utilities.DatabasePopulator] Recreating schema
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/initial-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousAnonymous ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAdministrator ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for anonymousUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for anonymousAnonymous.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for administratorUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for administratorAdministrator.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for administratorAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousUserAccount = acme.framework.entities.UserAccount{id=1, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousAnonymous = acme.framework.entities.Anonymous{id=2, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorUserAccount = acme.framework.entities.UserAccount{id=3, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAdministrator = acme.framework.entities.Administrator{id=4, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAuthenticated = acme.framework.entities.Authenticated{id=5, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/sample-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet2 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet3 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet4 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet5 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet6 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerUserAccount1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerManager ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task11 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task12 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task13 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task14 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task15 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task16 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating configuration01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for sheet1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for shout01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for sheet2.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for shout02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for sheet3.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 5 for shout03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 6 for sheet4.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 7 for shout04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 8 for sheet5.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 9 for shout05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 10 for sheet6.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 11 for shout06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 12 for managerUserAccount1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 13 for managerManager.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 14 for managerAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 15 for task01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 16 for task02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 17 for task03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 18 for task04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 19 for task05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 20 for task06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 21 for task07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 22 for task08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 23 for task09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 24 for task10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 25 for task11.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 26 for task12.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 27 for task13.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 28 for task14.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 29 for task15.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 30 for task16.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 31 for spam01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 32 for spam02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 33 for spam03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 34 for spam04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 35 for spam05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 36 for spam06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 37 for spam07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 38 for spam08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 39 for spam09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 40 for spam10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 41 for configuration01.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet1 = acme.entities.shouts.InfoSheet{id=6, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout01 = acme.entities.shouts.Shout{id=7, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet2 = acme.entities.shouts.InfoSheet{id=8, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout02 = acme.entities.shouts.Shout{id=9, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet3 = acme.entities.shouts.InfoSheet{id=10, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout03 = acme.entities.shouts.Shout{id=11, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet4 = acme.entities.shouts.InfoSheet{id=12, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout04 = acme.entities.shouts.Shout{id=13, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet5 = acme.entities.shouts.InfoSheet{id=14, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout05 = acme.entities.shouts.Shout{id=15, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet6 = acme.entities.shouts.InfoSheet{id=16, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout06 = acme.entities.shouts.Shout{id=17, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerUserAccount1 = acme.framework.entities.UserAccount{id=18, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerManager = acme.entities.roles.Manager{id=19, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerAuthenticated = acme.framework.entities.Authenticated{id=20, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task01 = acme.entities.tasks.Task{id=21, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task02 = acme.entities.tasks.Task{id=22, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task03 = acme.entities.tasks.Task{id=23, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task04 = acme.entities.tasks.Task{id=24, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task05 = acme.entities.tasks.Task{id=25, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task06 = acme.entities.tasks.Task{id=26, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task07 = acme.entities.tasks.Task{id=27, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task08 = acme.entities.tasks.Task{id=28, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task09 = acme.entities.tasks.Task{id=29, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task10 = acme.entities.tasks.Task{id=30, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task11 = acme.entities.tasks.Task{id=31, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task12 = acme.entities.tasks.Task{id=32, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task13 = acme.entities.tasks.Task{id=33, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task14 = acme.entities.tasks.Task{id=34, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task15 = acme.entities.tasks.Task{id=35, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task16 = acme.entities.tasks.Task{id=36, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam01 = acme.entities.configuration.Spam{id=37, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam02 = acme.entities.configuration.Spam{id=38, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam03 = acme.entities.configuration.Spam{id=39, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam04 = acme.entities.configuration.Spam{id=40, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam05 = acme.entities.configuration.Spam{id=41, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam06 = acme.entities.configuration.Spam{id=42, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam07 = acme.entities.configuration.Spam{id=43, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam08 = acme.entities.configuration.Spam{id=44, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam09 = acme.entities.configuration.Spam{id=45, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam10 = acme.entities.configuration.Spam{id=46, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting configuration01 = acme.entities.configuration.Configuration{id=47, version=0}
+INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 4964 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Started Launcher in 6.611 seconds (JVM running for 7.259)
+INFO [acme.framework.utilities.DatabasePopulator] Populating sample data
+INFO [acme.framework.utilities.DatabasePopulator] Recreating schema
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/initial-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousAnonymous ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAdministrator ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for anonymousUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for anonymousAnonymous.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for administratorUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for administratorAdministrator.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for administratorAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousUserAccount = acme.framework.entities.UserAccount{id=1, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousAnonymous = acme.framework.entities.Anonymous{id=2, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorUserAccount = acme.framework.entities.UserAccount{id=3, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAdministrator = acme.framework.entities.Administrator{id=4, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAuthenticated = acme.framework.entities.Authenticated{id=5, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/sample-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet2 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet3 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet4 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet5 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating sheet6 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating shout06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerUserAccount1 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerManager ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating managerAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task11 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task12 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task13 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task14 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task15 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating task16 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam02 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam03 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam04 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam05 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam06 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam07 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam08 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam09 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating spam10 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating configuration01 ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for sheet1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for shout01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for sheet2.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for shout02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for sheet3.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 5 for shout03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 6 for sheet4.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 7 for shout04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 8 for sheet5.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 9 for shout05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 10 for sheet6.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 11 for shout06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 12 for managerUserAccount1.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 13 for managerManager.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 14 for managerAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 15 for task01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 16 for task02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 17 for task03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 18 for task04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 19 for task05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 20 for task06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 21 for task07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 22 for task08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 23 for task09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 24 for task10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 25 for task11.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 26 for task12.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 27 for task13.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 28 for task14.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 29 for task15.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 30 for task16.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 31 for spam01.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 32 for spam02.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 33 for spam03.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 34 for spam04.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 35 for spam05.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 36 for spam06.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 37 for spam07.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 38 for spam08.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 39 for spam09.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 40 for spam10.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 41 for configuration01.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet1 = acme.entities.shouts.InfoSheet{id=6, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout01 = acme.entities.shouts.Shout{id=7, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet2 = acme.entities.shouts.InfoSheet{id=8, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout02 = acme.entities.shouts.Shout{id=9, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet3 = acme.entities.shouts.InfoSheet{id=10, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout03 = acme.entities.shouts.Shout{id=11, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet4 = acme.entities.shouts.InfoSheet{id=12, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout04 = acme.entities.shouts.Shout{id=13, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet5 = acme.entities.shouts.InfoSheet{id=14, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout05 = acme.entities.shouts.Shout{id=15, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting sheet6 = acme.entities.shouts.InfoSheet{id=16, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting shout06 = acme.entities.shouts.Shout{id=17, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerUserAccount1 = acme.framework.entities.UserAccount{id=18, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerManager = acme.entities.roles.Manager{id=19, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting managerAuthenticated = acme.framework.entities.Authenticated{id=20, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task01 = acme.entities.tasks.Task{id=21, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task02 = acme.entities.tasks.Task{id=22, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task03 = acme.entities.tasks.Task{id=23, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task04 = acme.entities.tasks.Task{id=24, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task05 = acme.entities.tasks.Task{id=25, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task06 = acme.entities.tasks.Task{id=26, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task07 = acme.entities.tasks.Task{id=27, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task08 = acme.entities.tasks.Task{id=28, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task09 = acme.entities.tasks.Task{id=29, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task10 = acme.entities.tasks.Task{id=30, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task11 = acme.entities.tasks.Task{id=31, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task12 = acme.entities.tasks.Task{id=32, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task13 = acme.entities.tasks.Task{id=33, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task14 = acme.entities.tasks.Task{id=34, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task15 = acme.entities.tasks.Task{id=35, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting task16 = acme.entities.tasks.Task{id=36, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam01 = acme.entities.configuration.Spam{id=37, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam02 = acme.entities.configuration.Spam{id=38, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam03 = acme.entities.configuration.Spam{id=39, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam04 = acme.entities.configuration.Spam{id=40, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam05 = acme.entities.configuration.Spam{id=41, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam06 = acme.entities.configuration.Spam{id=42, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam07 = acme.entities.configuration.Spam{id=43, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam08 = acme.entities.configuration.Spam{id=44, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam09 = acme.entities.configuration.Spam{id=45, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting spam10 = acme.entities.configuration.Spam{id=46, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting configuration01 = acme.entities.configuration.Configuration{id=47, version=0}
+INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+INFO [acme.Launcher] Starting Launcher using Java 15.0.1 on LAPTOP-3MG9834M with PID 10936 (C:\Users\fjrod\probando\DP2-G18-SP2\target\classes started by fjrod in C:\Users\fjrod\probando\DP2-G18-SP2)
+INFO [acme.Launcher] The following profiles are active: development,populator
+INFO [acme.Launcher] Started Launcher in 6.894 seconds (JVM running for 7.563)
+INFO [acme.framework.utilities.DatabasePopulator] Populating initial data
+INFO [acme.framework.utilities.DatabasePopulator] Recreating schema
+INFO [acme.framework.utilities.DatabasePopulator] Populating entities from classpath:/WEB-INF/population/initial-data.xml
+INFO [acme.framework.utilities.DatabasePopulator] Validating your entities.
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating anonymousAnonymous ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorUserAccount ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAdministrator ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Validating administratorAuthenticated ... PASS
+INFO [acme.framework.utilities.DatabasePopulator] Sorting your entities topologically.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 0 for anonymousUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 1 for anonymousAnonymous.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 2 for administratorUserAccount.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 3 for administratorAdministrator.
+INFO [acme.framework.utilities.DatabasePopulator] > Setting index 4 for administratorAuthenticated.
+INFO [acme.framework.utilities.DatabasePopulator] Persiting your entities.
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousUserAccount = acme.framework.entities.UserAccount{id=1, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting anonymousAnonymous = acme.framework.entities.Anonymous{id=2, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorUserAccount = acme.framework.entities.UserAccount{id=3, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAdministrator = acme.framework.entities.Administrator{id=4, version=0}
+INFO [acme.framework.utilities.DatabasePopulator] > Persisting administratorAuthenticated = acme.framework.entities.Authenticated{id=5, version=0}
+INFO [acme.framework.configuration.ShutdownConfiguration] The system is shutting down...
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] HTTP GET /Acme-Planner/WEB-INF/views/framework/page.jsp HTTP/1.1
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Status: 500
+ERROR [org.apache.jsp.WEB_002dINF.views.framework.panic_jsp] Exception: java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734): begin 0, end -1, length 4

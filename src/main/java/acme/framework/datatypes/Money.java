@@ -16,6 +16,7 @@ import javax.persistence.Embeddable;
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Pattern;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -35,7 +36,7 @@ public class Money extends DomainDatatype {
 	@Min(0)
 	protected Double			amount;
 
-	@NotBlank
+	@NotBlank@Pattern(regexp = "EUR|USD")//Solo acepta uno u otro
 	protected String			currency;
 
 	// Object interface -------------------------------------------------------

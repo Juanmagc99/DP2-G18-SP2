@@ -5,6 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.OneToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
@@ -37,11 +38,14 @@ public class InfoSheet extends DomainEntity {
 	@Temporal(TemporalType.TIMESTAMP)
 	protected Date		infoStamp;
 	
+	@Valid
 	protected Money		infoMoney;
 	
-	@NotNull
+
 	protected Boolean	infoFlag;
 	
 	@OneToOne(mappedBy = "sheet")
 	protected Shout shout;
+	
+
 }

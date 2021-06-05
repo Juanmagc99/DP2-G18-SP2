@@ -9,10 +9,10 @@
 	<acme:form-textbox code="anonymous.shout.form.label.info" path="info"/>
 	
 	<!-- <acme:form-moment code="anonymous.user-account.label.infoDate" path="infoDate"/> -->
-	<acme:form-textbox code="anonymous.shout.form.label.infoDate" path="sheet.infoDate"/>
+	<acme:form-date code="anonymous.shout.form.label.infoDate" path="sheet.infoDate"/>
 	
 	<!-- <acme:form-moment code="anonymous.user-account.label.infoStamp" path="sheet.infoStamp"/> -->
-	<acme:form-textbox code="anonymous.shout.form.label.infoMoney" path="sheet.infoMoney"/>
+	<acme:form-money code="anonymous.shout.form.label.infoMoney" path="sheet.infoMoney"/>
 	<acme:form-checkbox code="anonymous.shout.form.label.infoFlag" path="sheet.infoFlag"/>
 	
 	<acme:form-submit code="anonymous.shout.form.button.create" action="/anonymous/shout/create"/>

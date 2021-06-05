@@ -33,6 +33,15 @@ public class Dashboard implements Serializable {
 	Integer					numCurrentTask;
 	String						numExecutions;
 	String						numWorkloads;
+	Double ratioShoutsFlaggedTrue;
+	Double ratioShoutsFlaggedFalse;
+	
+	Double ratioShoutsYear2020;
+	
+	Double averageSheetGroupByCurrency1;
+	Double averageSheetGroupByCurrency2;
+	Double deviationSheetGroupByCurrency1;
+	Double deviationSheetGroupByCurrency2;
 	
 
 	// Derived attributes -----------------------------------------------------

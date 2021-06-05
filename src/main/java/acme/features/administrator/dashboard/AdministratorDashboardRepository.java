@@ -12,6 +12,8 @@
 
 package acme.features.administrator.dashboard;
 
+import java.util.List;
+
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
@@ -38,5 +40,25 @@ public interface AdministratorDashboardRepository extends AbstractRepository {
 	
 	@Query("select round(avg(t.workload),2), round(stddev(t.workload),2), round(min(t.workload),2), round(max(t.workload),2) from Task t")
 	String numWorkloads();
+	
+	// DASHBOARD PARA Sheet
+	
+	//the ratio of shouts whose Sheet were flagged as Sheet
+	@Query("select 1.0 * count(a) / (select count(b) from Shout b) from Shout a where a.sheet.infoFlag = true")
+	Double ratioOfShoutsFlaggedTrue();
+			
+	@Query("select 1.0 * count(a) / (select count(b) from Shout b) from Shout a where a.sheet.infoFlag = false")
+	Double ratioOfShoutsFlaggedFalse();
+			
+	//the ratio of shouts whose Sheet have XXX (Date con año 2020)
+	@Query("select 1.0 * count(a) / (select count(b) from Shout b) from Shout a where year(a.sheet.infoStamp) = 2020")
+	Double ratioOfShoutsYear2020();
+			
+	// the average and the standard deviation of the Sheet grouped by currency
+	@Query("select avg(s.infoMoney.amount) from InfoSheet s group by s.infoMoney.currency")
+	List<Double> averageSheetGroupByCurrency();
+			
+	@Query("select stddev(s.infoMoney.amount) from InfoSheet s group by s.infoMoney.currency")
+	List<Double> deviationSheetGroupByCurrency();
 
 }
