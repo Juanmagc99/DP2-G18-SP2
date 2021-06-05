@@ -89,19 +89,14 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 			errors.state(request, this.spamService.validateNoSpam(entity.getText()), "text", "anonymous.shout.form.label.spam", "spam");			
 		}
 		
-		if(entity.getSheet().getInfoDate() != null) {
+		if(!errors.hasErrors("sheet.infoDate")) {
 			final String sheetDateString = entity.getSheet().getInfoDate();
 			final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd");
 			final LocalDate sheetDate = LocalDate.parse(sheetDateString, dtf);
 			
 			final LocalDate today = LocalDate.now();
 			
-			System.out.println(sheetDateString);
-			System.out.println(sheetDate);
-			System.out.println(today);
-			
-			errors.state(request, !sheetDate.equals(today), "sheet.infoDate", "anonymous.shout.form.label.infoDate");
-
+			errors.state(request, sheetDate.isEqual(today), "sheet.infoDate", "anonymous.shout.form.label.infoDate");
 		}
 		
 		if(entity.getInfo() != null)	errors.state(request, this.spamService.validateNoSpam(entity.getInfo()), "info", "anonymous.shout.form.label.spam", "spam");
