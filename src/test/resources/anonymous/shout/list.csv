@@ -1,6 +1,7 @@
-recordIndex,moment,author,text,info
-0,2021/05/31 19:30,Jhon Doe,I'm happy!,
-1,2021/05/31 12:55,Francisco,I'm sad!,http://www.realmadrid.com
-2,2021/05/31 01:30,Javier,I love github!,http://github.com
-3,2021/06/01 12:55,Fernando,Good work as a team!,https://www.google.com
-4,2021/06/01 12:55,Manuel,We have a reunion today,https://discord.com
+recordIndex,moment,author,text,info,infoDate,infoMoneyCurrency,infoMoneyAmount,infoFlag
+0,2021/06/01 19:39,John Doe,I'm happy,,2020/01/01,EUR,24.00,true
+1,2021/06/01 19:39,Jonh Doe,I'm the master of my room!,http://www.example.org,2020/01/01,USD,13.00,true
+2,2021/06/01 19:39,Foo Bar,Just turning 50!,https://conpdeparty.com/617-large_default/globo-foil-happy-birthday-rosa-oro.jpg,2020/01/01,EUR,50.00,true
+3,2021/06/01 19:39,Michael Jackson,Thriller!!,,2020/01/01,USD,200.00,true
+4,2021/06/01 19:39,Mary Smith,I'm very sad,,2020/01/01,EUR,13.00,true
+5,2021/06/01 19:39,Lucy Long,I have a new puppy!,https://imagesvc.meredithcorp.io,2020/01/01,USD,13.00,true

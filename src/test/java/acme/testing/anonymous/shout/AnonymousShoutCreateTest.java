@@ -35,9 +35,10 @@ public class AnonymousShoutCreateTest  extends AcmePlannerTest{
 		super.checkColumnHasValue(recordIndex, 1, author);
 		super.checkColumnHasValue(recordIndex, 2, text);
 		super.checkColumnHasValue(recordIndex, 3, info);
-		/*super.checkColumnHasValue(recordIndex, 4, infoDate);
+		super.checkColumnHasValue(recordIndex, 4, infoDate);
 		super.checkColumnHasValue(recordIndex, 5, infoMoneysp[0]);
-		super.checkColumnHasValue(recordIndex, 7, infoMoneysp[1]);*/
+		super.checkColumnHasValue(recordIndex, 6, infoMoneysp[1]);
+		super.checkColumnHasValue(recordIndex, 7, infoFlag);
 
 
 

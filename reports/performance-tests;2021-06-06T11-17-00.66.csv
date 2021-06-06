@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+2021-06-06 11:17:14.024,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,3356,"[1] recordIndex=6, author=ATH, text=Text 1, info=http://www.example.com, infoDate=2021/06/05, infoMoney=EUR 16, infoFlag=true",Record index 6 is out of range

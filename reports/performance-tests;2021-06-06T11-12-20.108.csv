@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+2021-06-06 11:12:30.854,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,3408,"[1] recordIndex=5, author=ATH-01, text=Text 1, info=http://www.example.com, infoDate=2021/06/05, infoMoney=EUR 16, infoFlag=true",Expected value 'ATH-01' in attribute 1 of record 5, but found 'Lucy Long'
