@@ -17,3 +17,8 @@ anonymous.task.list.label.end_date= End Date:
 anonymous.task.list.label.workload=WorkLoad
 anonymous.task.list.label.op_url=Link
 
+listing.task.title= Unfinished Tasks
+listing.shout.title = Shouts
+listing.task.finished.title = Public Finished Tasks
+listing.task.private.title = Private Tasks
+
