@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+2021-06-06 11:19:16.244,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,3857,"[1] recordIndex=6, author=ATH-01, text=Text 1, info=http://www.example.com, infoDate=2021/06/06, infoMoney=EUR 16, infoFlag=true",OK

@@ -1,6 +1,7 @@
 package acme.features.anonymous.shout;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Collection;
 import java.util.Date;
 import java.util.HashSet;
@@ -104,12 +105,12 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 			//Parse date from form to LocalDate
 			
 			//INFODATE IS LOCALDATE
-			final LocalDate sheetDate = entity.getSheet().getInfoDate();
+			//final LocalDate sheetDate = entity.getSheet().getInfoDate();
 			
 			//INFODATE IS STRING
-			/*final String sheetDateString = entity.getSheet().getInfoDate();
+			final String sheetDateString = entity.getSheet().getInfoDate();
 			final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd");
-            final LocalDate sheetDate = LocalDate.parse(sheetDateString, dtf);*/
+            final LocalDate sheetDate = LocalDate.parse(sheetDateString, dtf);
             
             //Get current date as LocalDate
 			final LocalDate today = LocalDate.now();
@@ -120,10 +121,10 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 			final Collection<Shout> allShouts = this.repository.findMany();
 			
 			//INFODATE IS LOCALDATE
-			final Set<LocalDate> setDates = new HashSet<>();
+			//final Set<LocalDate> setDates = new HashSet<>();
 			
 			//INFODATE IS STRING
-			//final Set<String> setDates = new HashSet<>();
+			final Set<String> setDates = new HashSet<>();
 			Boolean uniqueDate = true;
 			
 			//Add all dates of existing Shouts to a Set
@@ -133,10 +134,10 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 			
 			//Get date of introduced Shout in the form
 			//INFODATE IS LOCALDATE
-			final LocalDate sDate = entity.getSheet().getInfoDate();
+			//final LocalDate sDate = entity.getSheet().getInfoDate();
 			
 			//INFODATE IS STRING
-			//final String sDate = entity.getSheet().getInfoDate();
+			final String sDate = entity.getSheet().getInfoDate();
 			
 			
 			//Tries to add this new date to the Set. Sets don´t allow duplicates, so if add fails, is NOT unique

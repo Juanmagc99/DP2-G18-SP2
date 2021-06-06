@@ -1,5 +1,4 @@
 package acme.entities.shouts;
-import java.time.LocalDate;
 import java.util.Date;
 
 import javax.persistence.Entity;
@@ -7,9 +6,9 @@ import javax.persistence.OneToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.Valid;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
-
-import org.springframework.format.annotation.DateTimeFormat;
+import javax.validation.constraints.Pattern;
 
 import acme.framework.datatypes.Money;
 import acme.framework.entities.DomainEntity;
@@ -25,19 +24,20 @@ public class InfoSheet extends DomainEntity {
 	protected static final long	serialVersionUID	= 1L;
 
 
-	@NotNull
+	/*@NotNull
 	@DateTimeFormat(pattern = "yyyy/MM/dd")
-	protected LocalDate		infoDate;
+	protected LocalDate		infoDate;*/
 	
-	/*@NotBlank
+	@NotBlank
 	@Pattern(regexp = "([12]\\d{3}/(0[1-9]|1[0-2])/(0[1-9]|[12]\\d|3[01]))", message = "default.error.conversion")
-	protected String		infoDate;*/
+	protected String		infoDate;
 
 	@NotNull
 	@Temporal(TemporalType.TIMESTAMP)
 	protected Date		infoStamp;
 	
 	@Valid
+	@NotNull
 	protected Money		infoMoney;
 	
 

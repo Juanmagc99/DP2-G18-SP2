@@ -88,10 +88,6 @@
 			<acme:print value="${ratioShoutsFlaggedFalse}"/>
 		</td>
 	</tr>
-</table>
-
-<table class="table table-sm" id="ratioYear">
-
 	<tr>
 		<th scope="row">
 			<acme:message code="administrator.dashboard.form.label.ratioYear"/>
@@ -100,9 +96,6 @@
 			<acme:print value="${ratioShoutsYear2020}"/>
 		</td>
 	</tr>
-</table>
-
-<table class="table table-sm" id="averageAndDeviation">	
 	<tr>
 		<th scope="row">
 			<acme:message code="administrator.dashboard.form.label.averageUSD"/>
