@@ -40,5 +40,16 @@ public class ManagerTaskListTest extends AcmePlannerTest {
 		
 		super.signOut();
 	}
+	@Test
+	@Order(10)
+	public void negativeListShowTask() {
+		
+		super.signIn("manager", "manager");
+		super.signOut();
+		
+		super.navigate("/manager/task/list", null);
+		super.checkPanicExists();
+		
+	}
 	
 }
