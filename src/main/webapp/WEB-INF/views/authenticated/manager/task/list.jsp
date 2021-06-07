@@ -3,7 +3,7 @@
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
-<h1><acme:message code='listing.task.private.title'/></h1>
+
 <acme:list>
 	<acme:list-column code="manager.task.list.label.title" path="title" width="20%"/>
 	<acme:list-column code="manager.task.list.label.start_date" path="start_date" width="20%"/>

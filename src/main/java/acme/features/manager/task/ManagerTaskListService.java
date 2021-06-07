@@ -47,9 +47,6 @@ public class ManagerTaskListService implements AbstractListService<Manager, Task
 			Principal principal;
 			principal = request.getPrincipal();
 
-//			Calendar  calendar;
-//			calendar=Calendar.getInstance();   
-
 			result = this.repository.findManagerTask(principal.getActiveRoleId());
 			
 			return result;
