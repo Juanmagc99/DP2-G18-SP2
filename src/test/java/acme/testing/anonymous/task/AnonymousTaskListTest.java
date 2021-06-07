@@ -35,6 +35,15 @@ public class AnonymousTaskListTest extends AcmePlannerTest{
 
 
 	}
+	@Test
+	public void negativeShowTask() {
+		super.signIn("administrator", "administrator");
+		super.navigate("/anonymous/task/show", "id=23");
+        
+        super.checkErrorsExist();
+        super.signOut();
+		
+	}
 
 }
 
