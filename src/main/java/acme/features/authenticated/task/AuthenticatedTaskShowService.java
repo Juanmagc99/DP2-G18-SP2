@@ -25,7 +25,7 @@ public class AuthenticatedTaskShowService implements AbstractShowService<Authent
 		taskId = request.getModel().getInteger("id");
 		task = this.repository.findOneTaskById(taskId);
 		
-		if(task.getIs_private().equals(true) && task.getEnd_date().after(Calendar.getInstance().getTime())) return false;
+		if(task.getIs_private().equals(true) || task.getEnd_date().after(Calendar.getInstance().getTime())) return false;
 		return true;
 	}
 
