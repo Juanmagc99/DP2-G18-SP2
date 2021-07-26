@@ -19,6 +19,65 @@
 	<acme:message code="administrator.dashboard.form.title.general-indicators"/>
 </h2>
 
+<table class="table table-sm" id="ratio">
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.ratioShoutTrue"/>
+		</th>
+		<td>
+			<acme:print value="${ratioShoutsFlaggedTrue}"/>
+		</td>
+	</tr>
+	<!--<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.ratioShoutFalse"/>
+		</th>
+		<td>
+			<acme:print value="${ratioShoutsFlaggedFalse}"/>
+		</td>
+	</tr>  -->
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.ratioYear"/>
+		</th>
+		<td>
+			<acme:print value="${ratioShoutsYear2020}"/>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.averageUSD"/>
+		</th>
+		<td>
+			<acme:print value="${averageSheetGroupByCurrency1}"/>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.averageEUR"/>
+		</th>
+		<td>
+			<acme:print value="${averageSheetGroupByCurrency2}"/>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.deviatioUSD"/>
+		</th>
+		<td>
+			<acme:print value="${deviationSheetGroupByCurrency1}"/>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">
+			<acme:message code="administrator.dashboard.form.label.deviationEUR"/>
+		</th>
+		<td>
+			<acme:print value="${deviationSheetGroupByCurrency2}"/>
+		</td>
+	</tr>
+</table>
+
 <table class="table table-sm" aria-describedby="Table of diferent parametres of the webpage for administrator" id="dashboard">
 	<tr>
 		<th scope="row">
@@ -68,65 +127,5 @@
 			<acme:print value="${numWorkloads}"/>
 		</td>
 	</tr>		
-</table>
-
-
-<table class="table table-sm" id="ratio">
-	<tr>
-		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.ratioShoutTrue"/>
-		</th>
-		<td>
-			<acme:print value="${ratioShoutsFlaggedTrue}"/>
-		</td>
-	</tr>
-	<tr>
-		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.ratioShoutFalse"/>
-		</th>
-		<td>
-			<acme:print value="${ratioShoutsFlaggedFalse}"/>
-		</td>
-	</tr>
-	<tr>
-		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.ratioYear"/>
-		</th>
-		<td>
-			<acme:print value="${ratioShoutsYear2020}"/>
-		</td>
-	</tr>
-	<tr>
-		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.averageUSD"/>
-		</th>
-		<td>
-			<acme:print value="${averageSheetGroupByCurrency1}"/>
-		</td>
-	</tr>
-	<tr>
-		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.averageEUR"/>
-		</th>
-		<td>
-			<acme:print value="${averageSheetGroupByCurrency2}"/>
-		</td>
-	</tr>
-	<tr>
-		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.deviatioUSD"/>
-		</th>
-		<td>
-			<acme:print value="${deviationSheetGroupByCurrency1}"/>
-		</td>
-	</tr>
-	<tr>
-		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.deviationEUR"/>
-		</th>
-		<td>
-			<acme:print value="${deviationSheetGroupByCurrency2}"/>
-		</td>
-	</tr>
 </table>
 

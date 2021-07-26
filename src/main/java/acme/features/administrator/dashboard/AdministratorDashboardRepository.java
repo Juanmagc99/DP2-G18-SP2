@@ -43,7 +43,7 @@ public interface AdministratorDashboardRepository extends AbstractRepository {
 	
 	// DASHBOARD PARA Sheet
 	
-	//the ratio of shouts whose Sheet were flagged as Sheet
+	//the ratio of shouts whose Sheet Flag were flagged as True
 	@Query("select 1.0 * count(a) / (select count(b) from Shout b) from Shout a where a.sheet.infoFlag = true")
 	Double ratioOfShoutsFlaggedTrue();
 			
@@ -51,7 +51,7 @@ public interface AdministratorDashboardRepository extends AbstractRepository {
 	Double ratioOfShoutsFlaggedFalse();
 			
 	//the ratio of shouts whose Sheet have XXX (Date con año 2020)
-	@Query("select 1.0 * count(a) / (select count(b) from Shout b) from Shout a where year(a.sheet.infoStamp) = 2020")
+	@Query("select 1.0 * count(a) / (select count(b) from Shout b) from Shout a where a.sheet.infoMoney.amount = 0")
 	Double ratioOfShoutsYear2020();
 			
 	// the average and the standard deviation of the Sheet grouped by currency

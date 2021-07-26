@@ -1,4 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-2021-06-06 11:44:11.958,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1826,"[1] recordIndex=0, author=ATH-01, text=Text 1, info=http://www.example.com",OK
-2021-06-06 11:44:13.965,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1806,"[2] recordIndex=0, author=ATH-01, text=Text 1, info=http://www.example.com",OK
-2021-06-06 11:44:15.995,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1825,"[3] recordIndex=0, author=ATH, text=Te, info=ww.example.com",OK

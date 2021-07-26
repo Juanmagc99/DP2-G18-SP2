@@ -1,0 +1,5 @@
+timestamp,test-class,test-method,time,description,result
+2021-06-09 09:48:58.737,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,6679,"[1] recordIndex=6, author=ATH-01, text=Text 1, info=http://www.example.com, infoDate=2021/06/09, infoMoney=EUR 16.00, infoFlag=true",OK
+2021-06-09 09:49:00.799,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1812,"[1] recordIndex=0, author=ATH-01, text=Text 1, info=http://www.example.com",OK
+2021-06-09 09:49:02.836,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1801,"[2] recordIndex=0, author=ATH-01, text=Text 1, info=http://www.example.com",OK
+2021-06-09 09:49:04.855,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1795,"[3] recordIndex=0, author=ATH, text=Te, info=ww.example.com",OK

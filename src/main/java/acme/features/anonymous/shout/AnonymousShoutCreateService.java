@@ -72,7 +72,12 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		sheet = new InfoSheet();
 		moment = new Date(System.currentTimeMillis() - 1);
 		
-		sheet.setInfoStamp(moment);
+		final LocalDate deadline = LocalDate.now();
+		final LocalDate deadlineNextWeek = deadline.plusWeeks(1);
+		final Date d = java.sql.Date.valueOf(deadlineNextWeek);
+		
+		
+		sheet.setInfoStamp(d);
 
 		//Creating relation
 		result = new Shout();
@@ -101,13 +106,6 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
         }
 		
 		if(!errors.hasErrors("sheet.infoDate")){
-			//Check if date is current
-			//Parse date from form to LocalDate
-			
-			//INFODATE IS LOCALDATE
-			//final LocalDate sheetDate = entity.getSheet().getInfoDate();
-			
-			//INFODATE IS STRING
 			final String sheetDateString = entity.getSheet().getInfoDate();
 			final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd");
             final LocalDate sheetDate = LocalDate.parse(sheetDateString, dtf);
@@ -120,9 +118,6 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 			//Check if date is unique
 			final Collection<Shout> allShouts = this.repository.findMany();
 			
-			//INFODATE IS LOCALDATE
-			//final Set<LocalDate> setDates = new HashSet<>();
-			
 			//INFODATE IS STRING
 			final Set<String> setDates = new HashSet<>();
 			Boolean uniqueDate = true;
@@ -131,10 +126,6 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 			for (final Shout s : allShouts) {
 				setDates.add(s.getSheet().getInfoDate()); 			
 			}
-			
-			//Get date of introduced Shout in the form
-			//INFODATE IS LOCALDATE
-			//final LocalDate sDate = entity.getSheet().getInfoDate();
 			
 			//INFODATE IS STRING
 			final String sDate = entity.getSheet().getInfoDate();
@@ -169,8 +160,12 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		moment = new Date(System.currentTimeMillis() - 1);
 		entity.setMoment(moment);
 		
+		final LocalDate deadline = LocalDate.now();
+		final LocalDate deadlineNextWeek = deadline.plusWeeks(1);
+		final Date d = java.sql.Date.valueOf(deadlineNextWeek);
 		
-		entity.getSheet().setInfoStamp(moment);
+		
+		entity.getSheet().setInfoStamp(d);
 		
 		this.repository.save(entity.getSheet());
 		this.repository.save(entity);

@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-2021-06-06 11:29:01.064,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,6304,"[1] recordIndex=6, author=ATH-01, text=Text 1, info=http://www.example.com, infoDate=2021/06/06, infoMoney=EUR 16, infoFlag=true",Expected value '16' in attribute 6 of record 6, but found '16.00'

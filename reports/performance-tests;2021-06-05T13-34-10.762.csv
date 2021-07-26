@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-2021-06-05 13:34:49.992,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,31298,"[1] recordIndex=5, author=ATH-01, text=Text 1, info=http://www.example.com",Cannot find 'By.name: sheet.infoMoney.currency'

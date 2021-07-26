@@ -22,14 +22,9 @@ public class InfoSheet extends DomainEntity {
 
 
 	protected static final long	serialVersionUID	= 1L;
-
-
-	/*@NotNull
-	@DateTimeFormat(pattern = "yyyy/MM/dd")
-	protected LocalDate		infoDate;*/
 	
 	@NotBlank
-	@Pattern(regexp = "([12]\\d{3}/(0[1-9]|1[0-2])/(0[1-9]|[12]\\d|3[01]))", message = "default.error.conversion")
+	@Pattern(regexp = "(^\\w{2}\\d{2}-(\\d{2}\\d{2}\\d{2}))", message = "default.error.conversion")
 	protected String		infoDate;
 
 	@NotNull

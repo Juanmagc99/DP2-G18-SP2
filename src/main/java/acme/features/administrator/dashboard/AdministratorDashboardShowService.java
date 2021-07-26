@@ -129,7 +129,6 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		numWorkloads = this.repository.numWorkloads();
 		
 		ratioShoutsFlaggedTrue = this.repository.ratioOfShoutsFlaggedTrue();
-		ratioShoutsFlaggedFalse = this.repository.ratioOfShoutsFlaggedFalse();
 		ratioShoutsYear2020 = this.repository.ratioOfShoutsYear2020();
 		
 
@@ -150,7 +149,6 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		deviationSheetGroupByCurrency2 = deviationSheetGroupByCurrency.get(1);
 		
 		result.setRatioShoutsFlaggedTrue(ratioShoutsFlaggedTrue);
-		result.setRatioShoutsFlaggedFalse(ratioShoutsFlaggedFalse);
 		result.setRatioShoutsYear2020(ratioShoutsYear2020);
 		result.setAverageSheetGroupByCurrency1(averageSheetGroupByCurrency1);
 		result.setAverageSheetGroupByCurrency2(averageSheetGroupByCurrency2);
