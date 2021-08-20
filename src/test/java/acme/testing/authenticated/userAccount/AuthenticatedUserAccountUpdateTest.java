@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.testing.AcmePlannerTest;
+import acme.testing.AcmeWorkPlansTest;
 
-public class AuthenticatedUserAccountUpdateTest extends AcmePlannerTest{
+public class AuthenticatedUserAccountUpdateTest extends AcmeWorkPlansTest{
 	
 	@ParameterizedTest
 	@CsvFileSource(resources = "/authenticated/userAccount/update-positive.csv", encoding = "utf-8", numLinesToSkip = 1)

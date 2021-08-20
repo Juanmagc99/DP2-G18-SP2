@@ -5,9 +5,9 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
 import acme.framework.helpers.StringHelper;
-import acme.testing.AcmePlannerTest;
+import acme.testing.AcmeWorkPlansTest;
 
-public class AuthenticatedManagerCreateTest extends AcmePlannerTest{
+public class AuthenticatedManagerCreateTest extends AcmeWorkPlansTest{
 	
 	@ParameterizedTest
 	@CsvFileSource(resources = "/authenticated/manager/create-positive.csv", encoding = "utf-8", numLinesToSkip = 1)

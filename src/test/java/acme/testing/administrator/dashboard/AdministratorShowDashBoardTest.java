@@ -5,9 +5,9 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import org.openqa.selenium.By;
 
-import acme.testing.AcmePlannerTest;
+import acme.testing.AcmeWorkPlansTest;
 
-public class AdministratorShowDashBoardTest extends AcmePlannerTest{
+public class AdministratorShowDashBoardTest extends AcmeWorkPlansTest{
 	
 	@ParameterizedTest
 	@CsvFileSource(resources = "/administrator/dashboard/list.csv", encoding = "utf-8", numLinesToSkip = 1)

@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-public class SignUpTest extends AcmePlannerTest  {
+public class SignUpTest extends AcmeWorkPlansTest  {
 	
 	@ParameterizedTest
 	@CsvFileSource(resources = "/sign-up/positive.csv", encoding = "utf-8", numLinesToSkip = 1)

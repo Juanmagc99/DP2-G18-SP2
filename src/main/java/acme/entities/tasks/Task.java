@@ -61,8 +61,8 @@ public class Task extends DomainEntity{
 		
 		@NotNull
 		@Min(0)
-		@Max(1000)
-		@Digits(integer = 4, fraction = 2)
+		@Max(100)
+		@Digits(integer = 2, fraction = 2)
 		protected Double workload;
 		
 		public Boolean okDates() {

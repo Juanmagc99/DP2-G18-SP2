@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.testing.AcmePlannerTest;
+import acme.testing.AcmeWorkPlansTest;
 
-public class AdministratorUserAccountsListTest extends AcmePlannerTest{
+public class AdministratorUserAccountsListTest extends AcmeWorkPlansTest{
 
 	@ParameterizedTest
 	@CsvFileSource(resources = "/administrator/userAccounts/list.csv", encoding = "utf-8", numLinesToSkip = 1)
