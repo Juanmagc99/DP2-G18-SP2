@@ -1,6 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-2021-08-23 17:07:18.041,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,4666,"[1] recordIndex=6, author=ATH-01, text=Text 1, info=http://www.example.com",OK
-2021-08-23 17:07:22.845,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,4406,"[2] recordIndex=7, author=ATH-02, text=Text 2, info=http://www.example.com",OK
-2021-08-23 17:07:27.392,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,4190,"[3] recordIndex=8, author=ATH-03, text=Text 3, info=http://www.example.com",OK
-2021-08-23 17:07:32.548,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,4790,"[4] recordIndex=9, author=ATH-04, text=viagra esto debería aceptar el spam porque supera el umbral predefinido, info=http://www.example.com",OK
-2021-08-23 17:07:37.919,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,4983,"[5] recordIndex=10, author=ATH-05, text=Text 5, info=null",OK

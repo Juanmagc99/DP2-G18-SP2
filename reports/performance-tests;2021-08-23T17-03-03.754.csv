@@ -1,6 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-2021-08-23 17:03:17.403,acme.testing.anonymous.shout.AnonymousListTest,listAll,2089,"[1] recordIndex=0, moment=2021/08/22 19:30, author=Jhon Doe, text=I'm happy!, info=null",OK
-2021-08-23 17:03:19.802,acme.testing.anonymous.shout.AnonymousListTest,listAll,2047,"[2] recordIndex=1, moment=2021/08/22 12:55, author=Francisco, text=I'm sad!, info=http://www.realmadrid.com",OK
-2021-08-23 17:03:22.083,acme.testing.anonymous.shout.AnonymousListTest,listAll,1930,"[3] recordIndex=2, moment=2021/08/22 01:30, author=Javier, text=I love github!, info=http://github.com",OK
-2021-08-23 17:03:23.604,acme.testing.anonymous.shout.AnonymousListTest,listAll,1214,"[4] recordIndex=3, moment=2021/08/22 12:55, author=Fernando, text=Good work as a team!, info=https://www.google.com",Expected value '2021/08/22 12:55' in attribute 0 of record 3, but found '2021/08/22 01:30'
-2021-08-23 17:03:25.324,acme.testing.anonymous.shout.AnonymousListTest,listAll,1403,"[5] recordIndex=4, moment=2021/08/22 12:55, author=Manuel, text=We have a reunion today, info=https://discord.com",Expected value 'Manuel' in attribute 1 of record 4, but found 'Fernando'

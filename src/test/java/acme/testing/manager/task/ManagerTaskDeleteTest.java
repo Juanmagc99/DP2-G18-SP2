@@ -30,7 +30,7 @@ public class ManagerTaskDeleteTest extends AcmeWorkPlansTest{
 		super.checkInputBoxHasValue("is_private", is_private);
 		super.clickOnSubmitButton("Delete");
 		super.clickOnListingRecord(recordIndex);
-		super.checkInputBoxHasValue("workload", "1.50");
+		super.checkInputBoxHasValue("workload", "1.45");
 		super.signOut();
 		
 	}

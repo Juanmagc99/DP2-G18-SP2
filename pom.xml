@@ -18,10 +18,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	
-	<name>Acme Planner</name>
-	<description>This is the Acme Planner </description>
+	<name>Acme Work-Plans</name>
+	<description>This is the Acme Work-Plans </description>
 
-	<artifactId>Acme-Planner</artifactId>
+	<artifactId>Acme-Work-Plans</artifactId>
 	<version>21.6</version>
 	<packaging>war</packaging>
 
