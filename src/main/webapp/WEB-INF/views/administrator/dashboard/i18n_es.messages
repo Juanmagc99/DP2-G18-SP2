@@ -21,3 +21,18 @@ administrator.dashboard.form.label.num-workloads = Media, desviación, mínimo y
 administrator.dashboard.form.label.dias = (Medido en días)
 
 
+administrator.dashboard.form.title.ratio= Ratio
+administrator.dashboard.form.label.ratioShoutTrue= Ratio Important True
+administrator.dashboard.form.label.ratioShoutFalse= Ratio flag False
+administrator.dashboard.form.title.ratioYear= Ratio per year
+administrator.dashboard.form.label.budget0 = Ratio budget 0
+administrator.dashboard.form.title.averageDeviation= Average/Desviation
+administrator.dashboard.form.label.averageBTC= Media USD
+administrator.dashboard.form.label.averageEUR= Media EUR
+administrator.dashboard.form.label.averageGBP= Media GBP
+administrator.dashboard.form.label.deviatioBTC= Desviacion USD
+administrator.dashboard.form.label.deviationEUR= Desviacion EUR
+administrator.dashboard.form.label.deviationGBP= Desviacion GBP
+
+
+

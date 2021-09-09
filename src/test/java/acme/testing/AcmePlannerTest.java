@@ -5,12 +5,12 @@ package acme.testing;
 import org.hibernate.internal.util.StringHelper;
 import org.junit.jupiter.api.BeforeAll;
 
-public class AcmeWorkPlansTest  extends AcmeTest{
+public class AcmePlannerTest  extends AcmeTest{
 	
 	@Override
 	@BeforeAll
 	public void beforeAll() {
-		super.setHeadless(true);
+		//super.setHeadless(true);
 		super.beforeAll();
 
 		super.setBaseCamp("http", "localhost", "8080", "/Acme-Work-Plans", "/master/welcome", "?language=en&debug=true");

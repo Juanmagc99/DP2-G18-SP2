@@ -2,12 +2,30 @@
 
 anonymous.shout.form.label.author = Author:
 anonymous.shout.form.label.text = Text:
-anonymous.shout.form.label.info= Info:
+anonymous.shout.form.label.info= Link:
 anonymous.shout.form.button.create = Shout!
 anonymous.shout.form.button.return = Return
 anonymous.shout.form.label.spam = Please don't shout spam
+
+anonymous.shout.form.label.xomen = Date
+anonymous.shout.form.label.budget = Money
+anonymous.shout.form.label.important = Important
+anonymous.shout.form.label.deadline = Deadline
+
+anonymous.shout.list.label.extrasheet.xomen = Date
+anonymous.shout.list.label.extrasheet.budget.currency = Currency
+anonymous.shout.list.label.extrasheet.budget.amount = Amount
+anonymous.shout.list.label.extrasheet.important = Important
+anonymous.shout.list.label.extrasheet.deadline = Deadline
  
 anonymous.shout.list.label.moment = Moment
 anonymous.shout.list.label.author = Author
 anonymous.shout.list.label.text= Text
-anonymous.shout.list.label.info=URL
+anonymous.shout.list.label.info=Link
+
+anonymous.shout.extrasheet.amount = Must be positive
+anonymous.shout.extrasheet.date.current = Must be the current date
+anonymous.shout.extrasheet.date.duplicate = You already shouted today
+anonymous.shout.extrasheet.currency = Only EUR and USD are allowed
+anonymous.shout.extrasheet.xomen = Must be unique and the date have to coincide with today
+anonymous.shout.extrasheet.deadline = Date must be at least one week ahead todays date

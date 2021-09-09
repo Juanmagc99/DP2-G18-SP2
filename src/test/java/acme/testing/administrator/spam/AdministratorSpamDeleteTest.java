@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.testing.AcmeWorkPlansTest;
+import acme.testing.AcmePlannerTest;
 
-public class AdministratorSpamDeleteTest extends AcmeWorkPlansTest {
+public class AdministratorSpamDeleteTest extends AcmePlannerTest {
 	@ParameterizedTest
 	@CsvFileSource(resources = "/administrator/spam/delete-positive.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(20)	

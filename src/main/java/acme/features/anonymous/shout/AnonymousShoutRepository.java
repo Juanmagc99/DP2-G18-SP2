@@ -12,7 +12,8 @@ import acme.framework.repositories.AbstractRepository;
 @Repository
 public interface AnonymousShoutRepository  extends AbstractRepository  {
 	
-
+	@Query("select count(s) from Shout s where s.extrasheet.xomen = ?1")
+	Integer isUnique(String xomen);
 	
 	@Query("select s from Shout s")
 	Collection<Shout> findMany();

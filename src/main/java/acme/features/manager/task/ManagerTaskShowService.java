@@ -1,5 +1,8 @@
 package acme.features.manager.task;
 
+import java.util.Calendar;
+import java.util.Date;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -54,6 +57,10 @@ public class ManagerTaskShowService implements AbstractShowService<Manager, Task
 
 		id = request.getModel().getInteger("id");
 		result = this.repository.findOneTaskById(id);
+		
+		final Date current = Calendar.getInstance().getTime();
+		assert result.getEnd_date().after(current); //List the public tasks that are non-finished
+		//assert !result.getIs_private();
 		return result;
 	}
 

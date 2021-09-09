@@ -1,15 +1,19 @@
 package acme.features.anonymous.shout;
 
+import java.time.LocalDate;
+import java.util.Calendar;
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.entities.shouts.ExtraSheet;
 import acme.entities.shouts.Shout;
 import acme.features.administrator.configuration.SpamService;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
+import acme.framework.datatypes.Money;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractCreateService;
 
@@ -50,8 +54,8 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		assert request != null;
 		assert entity != null;
 		assert model != null;
-
-		request.unbind(entity, model, "author", "text", "info");
+		
+		request.unbind(entity, model, "author", "text", "info", "extrasheet.xomen", "extrasheet.budget", "extrasheet.important", "extrasheet.deadline");
 	}
 
 	@Override
@@ -59,14 +63,19 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		assert request != null;
 
 		Shout result;
-		Date moment;
-
+		final Date moment;
+		final ExtraSheet extrasheet;
+		
+		extrasheet = new ExtraSheet();
 		moment = new Date(System.currentTimeMillis() - 1);
-
-		result = new Shout();
-		result.setMoment(moment);
 		
 
+		//Creating relation
+		result = new Shout();
+		result.setMoment(moment);
+		result.setExtrasheet(extrasheet);
+		
+		
 		return result;
 	}
 
@@ -81,6 +90,62 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 			errors.state(request, this.spamService.validateNoSpam(entity.getText()), "text", "anonymous.shout.form.label.spam", "spam");			
 		}
 		
+		
+		if(!errors.hasErrors("extrasheet.budget")){
+			//Check if the amount is positive
+            errors.state(request, entity.getExtrasheet().getBudget().getAmount() >=0, "extrasheet.budget", "anonymous.shout.extrasheet.amount");
+        }
+		
+		if(!errors.hasErrors("extrasheet.xomen")){
+			
+			/*Check if date matches todays date*/
+			final String dateStringFull = entity.getExtrasheet().getXomen();
+			final String[] dateStringSplited = dateStringFull.split("-");
+			final String dateFech = dateStringSplited[1];
+			final char[] dateFechSeparated = dateFech.toCharArray();
+			
+			final String yearString = String.valueOf(dateFechSeparated[0])+String.valueOf(dateFechSeparated[1])
+			+String.valueOf(dateFechSeparated[2])+String.valueOf(dateFechSeparated[3]);
+			final  Integer yearInteger = Integer.valueOf(yearString);
+			
+			final String monthString = String.valueOf(dateFechSeparated[4])+String.valueOf(dateFechSeparated[5]);
+			final Integer monthInteger = Integer.valueOf(monthString);
+			
+			final String dayString = String.valueOf(dateFechSeparated[6])+String.valueOf(dateFechSeparated[7]);
+			final Integer dayInteger = Integer.valueOf(dayString);
+			
+			////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+			
+			final LocalDate today = LocalDate.now();
+			final Boolean yearCorrect = yearInteger == today.getYear();
+			final Boolean monthCorrect = monthInteger == today.getMonthValue();
+			final Boolean dayCorrect = dayInteger == today.getDayOfMonth();
+			
+			errors.state(request, yearCorrect&&monthCorrect&&dayCorrect, "extrasheet.xomen", "anonymous.shout.extrasheet.xomen");
+			
+			/*Check if dates and id are UNIQUE*/
+			final Boolean isUnique = this.repository.isUnique(entity.getExtrasheet().getXomen()) < 1;
+			
+			errors.state(request, isUnique, "extrasheet.xomen", "anonymous.shout.extrasheet.xomen");
+			
+		}
+		
+		if(!errors.hasErrors("extrasheet.budget")) {
+			final Money money = entity.getExtrasheet().getBudget();
+			final String currency = money.getCurrency();
+			
+			//Only DOLLARS and EUROS are allowed
+			errors.state(request, (currency.equals("EUR") || currency.equals("USD") || currency.equals("GBP")), "extrasheet.budget", "anonymous.shout.extrasheet.currency");	
+		}
+		
+		if(!errors.hasErrors("extrasheet.deadline") && entity.getExtrasheet().getDeadline()!=null) {
+            final Date weekLess = entity.getExtrasheet().getDeadline();
+            final Calendar minimumDeadline= Calendar.getInstance();
+            minimumDeadline.add(Calendar.DATE, 7);
+                        
+            errors.state(request,weekLess.after(minimumDeadline.getTime()), "extrasheet.deadline", "anonymous.shout.extrasheet.deadline");
+        }
+		
 		if(entity.getInfo() != null)	errors.state(request, this.spamService.validateNoSpam(entity.getInfo()), "info", "anonymous.shout.form.label.spam", "spam");
 	}
 
@@ -88,11 +153,8 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 	public void create(final Request<Shout> request, final Shout entity) {
 		assert request != null;
 		assert entity != null;
-
-		Date moment;
-
-		moment = new Date(System.currentTimeMillis() - 1);
-		entity.setMoment(moment);
+		
+		this.repository.save(entity.getExtrasheet());
 		this.repository.save(entity);
 	}
 

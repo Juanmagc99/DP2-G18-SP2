@@ -5,9 +5,9 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.testing.AcmeWorkPlansTest;
+import acme.testing.AcmePlannerTest;
 
-public class AdministratorThresholdListTest extends AcmeWorkPlansTest {
+public class AdministratorThresholdListTest extends AcmePlannerTest {
 	@ParameterizedTest
 	@CsvFileSource(resources = "/administrator/threshold/list.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)

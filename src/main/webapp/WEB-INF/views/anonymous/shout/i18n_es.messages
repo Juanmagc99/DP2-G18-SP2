@@ -2,12 +2,30 @@
 
 anonymous.shout.form.label.author = Autor:
 anonymous.shout.form.label.text = Texto:
-anonymous.shout.form.label.info= Info:
+anonymous.shout.form.label.info= Enlace:
 anonymous.shout.form.button.create = Gritar
 anonymous.shout.form.button.return = Volver
 anonymous.shout.form.label.spam = Por favor no grite spam
+
+anonymous.shout.form.label.xomen = Date
+anonymous.shout.form.label.budget = Money
+anonymous.shout.form.label.important = Important
+anonymous.shout.form.label.deadline = Deadline
+
+anonymous.shout.list.label.extrasheet.xomen = Date
+anonymous.shout.list.label.extrasheet.budget.currency = Currency
+anonymous.shout.list.label.extrasheet.budget.amount = Amount
+anonymous.shout.list.label.extrasheet.important = Important
+anonymous.shout.list.label.extrasheet.deadline = Deadline
  
 anonymous.shout.list.label.moment = Momento
 anonymous.shout.list.label.author = Autor
 anonymous.shout.list.label.text= Texto
 anonymous.shout.list.label.info=Enlace
+
+anonymous.shout.extrasheet.amount = Debe ser positivo
+anonymous.shout.extrasheet.date.current = Debe ser la fecha actual
+anonymous.shout.extrasheet.date.duplicate = Ya ha gritado hoy
+anonymous.shout.extrasheet.currency = Solo se admite EUR y USD
+anonymous.shout.extrasheet.xomen = Debe de ser única y coincidir con el dia de hoy
+anonymous.shout.extrasheet.deadline = La fecha debe ser una semana despues

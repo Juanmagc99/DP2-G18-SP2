@@ -1,9 +1,13 @@
 package acme.entities.shouts;
 import java.util.Date;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
@@ -39,6 +43,16 @@ public class Shout extends DomainEntity {
 	
 	@URL
 	protected String			info;
+	
+	@Valid
+	@OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "extrasheet_id", referencedColumnName = "id")
+	protected ExtraSheet extrasheet; 
+	
+	
+//	@Valid//para que coja las restricciones
+//	@OneToOne(optional = false)//porque debe tenerlo sí o sí (un shout MUST tener un XXX)
+//	protected InfoSheet extrasheet;
 
 
 }

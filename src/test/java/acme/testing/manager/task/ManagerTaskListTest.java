@@ -1,14 +1,13 @@
 package acme.testing.manager.task;
 
 import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
 import acme.framework.helpers.StringHelper;
-import acme.testing.AcmeWorkPlansTest;
+import acme.testing.AcmePlannerTest;
 
-public class ManagerTaskListTest extends AcmeWorkPlansTest {
+public class ManagerTaskListTest extends AcmePlannerTest {
 	@ParameterizedTest
 	@CsvFileSource(resources = "/manager/task/list.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
@@ -40,17 +39,6 @@ public class ManagerTaskListTest extends AcmeWorkPlansTest {
 		
 		
 		super.signOut();
-	}
-	@Test
-	@Order(10)
-	public void negativeListShowTask() {
-		
-		super.signIn("manager", "manager");
-		super.signOut();
-		
-		super.navigate("/manager/task/list", null);
-		super.checkPanicExists();
-		
 	}
 	
 }

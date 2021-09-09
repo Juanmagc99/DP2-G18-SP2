@@ -1,13 +1,12 @@
 package acme.testing.anonymous.task;
 
 import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.testing.AcmeWorkPlansTest;
+import acme.testing.AcmePlannerTest;
 
-public class AnonymousTaskListTest extends AcmeWorkPlansTest{
+public class AnonymousTaskListTest extends AcmePlannerTest{
 	
 	@ParameterizedTest
 	@CsvFileSource(resources = "/anonymous/task/list.csv", encoding = "utf-8", numLinesToSkip = 1)
@@ -35,15 +34,6 @@ public class AnonymousTaskListTest extends AcmeWorkPlansTest{
 		super.checkInputBoxHasValue("is_private", is_private);
 
 
-	}
-	@Test
-	public void negativeShowTask() {
-		super.signIn("administrator", "administrator");
-		super.navigate("/anonymous/task/show", "id=23");
-        
-        super.checkErrorsExist();
-        super.signOut();
-		
 	}
 
 }

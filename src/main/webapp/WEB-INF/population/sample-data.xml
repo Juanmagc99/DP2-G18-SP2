@@ -19,50 +19,111 @@
 
 	<import resource="classpath:/WEB-INF/population/conversion-service.xml"/>	
 	
+	<bean id="extrasheet1" class="acme.entities.shouts.ExtraSheet">
+		<property name="xomen" value="AAA-20210903"></property>
+		<property name="deadline" value="2021/10/01 19:39"></property>
+		<property name="budget" value="34.00 EUR"></property>
+		<property name="important" value="true"></property>
+	</bean>
+
+	<bean id="shout01" class="acme.entities.shouts.Shout">
+		<property name="moment" value="2021/09/08 18:00"/>
+		<property name="author" value="Shout_author1"/>
+		<property name="text" value="Shout_text1"/>
+		<property name="info" value="http://www.example.com"></property>
+		<property name="extrasheet" ref="extrasheet1"></property>
+	</bean>
 	
-	<!-- Shouts -->
-<bean id="shout01" class="acme.entities.shouts.Shout">
-        <property name="moment" value="2021/08/22 19:30"/>
-        <property name="author" value="Jhon Doe"/>
-        <property name="text" value="I'm happy!"/>
-        <property name="info"><null/></property>
-    </bean>
-
-    <bean id="shout02" class="acme.entities.shouts.Shout">
-        <property name="moment" value="2021/08/22 12:55"/>
-        <property name="author" value="Francisco"/>
-        <property name="text" value="I'm sad!"/>
-        <property name="info" value="http://www.realmadrid.com"/>
-    </bean>
-
-    <bean id="shout03" class="acme.entities.shouts.Shout">
-        <property name="moment" value="2021/08/22 01:30"/>
-        <property name="author" value="Javier"/>
-        <property name="text" value="I love github!"/>
-        <property name="info" value="http://github.com"/>
-    </bean>
-
-
-    <bean id="shout04" class="acme.entities.shouts.Shout">
-        <property name="moment" value="2021/08/22 01:30"/>
-        <property name="author" value="Misco"/>
-        <property name="text" value="I dont know"/>
-        <property name="info"><null/></property>
-    </bean>
-
-    <bean id="shout05" class="acme.entities.shouts.Shout">
-        <property name="moment" value="2021/08/22 12:55"/>
-        <property name="author" value="Fernando"/>
-        <property name="text" value="Good work as a team!"/>
-        <property name="info" value="https://www.google.com"/>
-    </bean>
-
-    <bean id="shout06" class="acme.entities.shouts.Shout">
-        <property name="moment" value="2021/08/22 12:55"/>
-        <property name="author" value="Manuel"/>
-        <property name="text" value="We have a reunion today"/>
-        <property name="info" value="https://discord.com"/>
-    </bean>
+	<bean id="extrasheet2" class="acme.entities.shouts.ExtraSheet">
+		<property name="xomen" value="AAB-20210903"></property>
+		<property name="deadline" value="2021/10/01 19:39"></property>
+		<property name="budget" value="73.00 USD"></property>
+		<property name="important" value="true"></property>
+	</bean>
+	
+	<bean id="shout02" class="acme.entities.shouts.Shout">
+		<property name="moment" value="2021/09/08 12:29"/>
+		<property name="author" value="Shout_author2"/>
+		<property name="text" value="Shout_text2"/>
+		<property name="info" value="http://www.example.com"/>
+		<property name="extrasheet" ref="extrasheet2"></property>
+	</bean>
+	
+	<bean id="extrasheet3" class="acme.entities.shouts.ExtraSheet">
+		<property name="xomen" value="AAC-20210903"></property>
+		<property name="deadline" value="2021/10/01 19:39"></property>
+		<property name="budget" value="20.00 EUR"></property>
+		<property name="important" value="true"></property>
+	</bean>
+	
+	<bean id="shout03" class="acme.entities.shouts.Shout">
+		<property name="moment" value="2021/09/08 13:19"/>
+		<property name="author" value="Shout_author3"/>
+		<property name="text" value="Shout_text3"/>
+		<property name="info" value="http://www.example.com"/>
+		<property name="extrasheet" ref="extrasheet3"></property>
+	</bean>
+	
+	<bean id="extrasheet4" class="acme.entities.shouts.ExtraSheet">
+		<property name="xomen" value="AAD-20210903"></property>
+		<property name="deadline" value="2021/10/01 19:39"></property>
+		<property name="budget" value="10.00 USD"></property>
+		<property name="important" value="true"></property>
+	</bean>
+	
+	<bean id="shout04" class="acme.entities.shouts.Shout">
+		<property name="moment" value="2021/09/08 14:09"/>
+		<property name="author" value="Shout_author4"/>
+		<property name="text" value="Shout_text4"/>
+		<property name="info" value="http://www.example.com"/>
+		<property name="extrasheet" ref="extrasheet4"></property>
+	</bean>
+	
+	<bean id="extrasheet5" class="acme.entities.shouts.ExtraSheet">
+		<property name="xomen" value="AAE-20210903"></property>
+		<property name="deadline" value="2021/10/01 19:39"></property>
+		<property name="budget" value="9.00 EUR"></property>
+		<property name="important" value="true"></property>
+	</bean>
+	
+	<bean id="shout05" class="acme.entities.shouts.Shout">
+		<property name="moment" value="2021/09/08 15:39"/>
+		<property name="author" value="Shout_author5"/>
+		<property name="text" value="Shout_text5"/>
+		<property name="info" value="http://www.example.com"/>
+		<property name="extrasheet" ref="extrasheet5"></property>
+	</bean>
+	
+	<bean id="extrasheet6" class="acme.entities.shouts.ExtraSheet">
+		<property name="xomen" value="AAF-20210903"></property>
+		<property name="deadline" value="2021/10/01 19:39"></property>
+		<property name="budget" value="14.00 USD"></property>
+		<property name="important" value="true"></property>
+	</bean>
+	
+	<bean id="shout06" class="acme.entities.shouts.Shout">
+		<property name="moment" value="2021/09/08 16:49"/>
+		<property name="author" value="Shout_author6"/>
+		<property name="text" value="Shout_text6"/>
+		<property name="info" value="http://www.example.com"/>
+		<property name="extrasheet" ref="extrasheet6"></property>
+	</bean>
+	
+	<bean id="extrasheet7" class="acme.entities.shouts.ExtraSheet">
+		<property name="xomen" value="AAG-20210903"></property>
+		<property name="deadline" value="2021/10/01 19:39"></property>
+		<property name="budget" value="21.00 GBP"></property>
+		<property name="important" value="true"></property>
+	</bean>
+	
+	<bean id="shout07" class="acme.entities.shouts.Shout">
+		<property name="moment" value="2021/09/08 16:49"/>
+		<property name="author" value="Shout_author7"/>
+		<property name="text" value="Shout_text7"/>
+		<property name="info" value="http://www.example.com"/>
+		<property name="extrasheet" ref="extrasheet7"></property>
+	</bean>
+	
 
 	<bean name="managerUserAccount1" class="acme.framework.entities.UserAccount">
 		<property name="username" value="manager" />
@@ -100,7 +161,7 @@
 	<bean id="task01" class="acme.entities.tasks.Task">
 		<property name="start_date" value="2030/09/07 00:00"/>
 		<property name="end_date" value="2030/09/08 12:00"/>
-		<property name="workload" value="1.45"/>
+		<property name="workload" value="1.50"/>
 		<property name="title" value="Texample"/>
 		<property name="is_private" value="true"/>
 		<property name="description" value="Hi just trying tasks"/>

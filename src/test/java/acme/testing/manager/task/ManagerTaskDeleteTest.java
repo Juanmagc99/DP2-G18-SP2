@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.testing.AcmeWorkPlansTest;
+import acme.testing.AcmePlannerTest;
 
-public class ManagerTaskDeleteTest extends AcmeWorkPlansTest{
+public class ManagerTaskDeleteTest extends AcmePlannerTest{
 	
 	@ParameterizedTest
 	@CsvFileSource(resources = "/manager/task/delete-positive.csv", encoding = "utf-8", numLinesToSkip = 1)
@@ -30,7 +30,7 @@ public class ManagerTaskDeleteTest extends AcmeWorkPlansTest{
 		super.checkInputBoxHasValue("is_private", is_private);
 		super.clickOnSubmitButton("Delete");
 		super.clickOnListingRecord(recordIndex);
-		super.checkInputBoxHasValue("workload", "1.45");
+		super.checkInputBoxHasValue("workload", "1.50");
 		super.signOut();
 		
 	}

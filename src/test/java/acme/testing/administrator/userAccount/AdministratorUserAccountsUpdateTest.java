@@ -5,9 +5,9 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
 import acme.framework.entities.UserAccountStatus;
-import acme.testing.AcmeWorkPlansTest;
+import acme.testing.AcmePlannerTest;
 
-public class AdministratorUserAccountsUpdateTest extends AcmeWorkPlansTest{
+public class AdministratorUserAccountsUpdateTest extends AcmePlannerTest{
 	
 	@ParameterizedTest
 	@CsvFileSource(resources = "/administrator/userAccounts/update.csv", encoding = "utf-8", numLinesToSkip = 1)

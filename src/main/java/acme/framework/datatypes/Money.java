@@ -14,7 +14,6 @@ package acme.framework.datatypes;
 
 import javax.persistence.Embeddable;
 import javax.validation.constraints.Digits;
-import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 
 import lombok.Getter;
@@ -32,7 +31,7 @@ public class Money extends DomainDatatype {
 	// Attributes -------------------------------------------------------------
 
 	@Digits(integer = 10, fraction = 2)
-	@Min(0)
+	//@Positive
 	protected Double			amount;
 
 	@NotBlank
