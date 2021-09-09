@@ -20,7 +20,7 @@
 	<import resource="classpath:/WEB-INF/population/conversion-service.xml"/>	
 	
 	<bean id="extrasheet1" class="acme.entities.shouts.ExtraSheet">
-		<property name="xomen" value="AAA-20210903"></property>
+		<property name="xomen" value="AAA-210903"></property>
 		<property name="deadline" value="2021/10/01 19:39"></property>
 		<property name="budget" value="34.00 EUR"></property>
 		<property name="important" value="true"></property>
@@ -35,7 +35,7 @@
 	</bean>
 	
 	<bean id="extrasheet2" class="acme.entities.shouts.ExtraSheet">
-		<property name="xomen" value="AAB-20210903"></property>
+		<property name="xomen" value="AAB-210903"></property>
 		<property name="deadline" value="2021/10/01 19:39"></property>
 		<property name="budget" value="73.00 USD"></property>
 		<property name="important" value="true"></property>
@@ -50,7 +50,7 @@
 	</bean>
 	
 	<bean id="extrasheet3" class="acme.entities.shouts.ExtraSheet">
-		<property name="xomen" value="AAC-20210903"></property>
+		<property name="xomen" value="AAC-210903"></property>
 		<property name="deadline" value="2021/10/01 19:39"></property>
 		<property name="budget" value="20.00 EUR"></property>
 		<property name="important" value="true"></property>
@@ -65,7 +65,7 @@
 	</bean>
 	
 	<bean id="extrasheet4" class="acme.entities.shouts.ExtraSheet">
-		<property name="xomen" value="AAD-20210903"></property>
+		<property name="xomen" value="AAD-210903"></property>
 		<property name="deadline" value="2021/10/01 19:39"></property>
 		<property name="budget" value="10.00 USD"></property>
 		<property name="important" value="true"></property>
@@ -80,7 +80,7 @@
 	</bean>
 	
 	<bean id="extrasheet5" class="acme.entities.shouts.ExtraSheet">
-		<property name="xomen" value="AAE-20210903"></property>
+		<property name="xomen" value="AAE-210903"></property>
 		<property name="deadline" value="2021/10/01 19:39"></property>
 		<property name="budget" value="9.00 EUR"></property>
 		<property name="important" value="true"></property>
@@ -95,7 +95,7 @@
 	</bean>
 	
 	<bean id="extrasheet6" class="acme.entities.shouts.ExtraSheet">
-		<property name="xomen" value="AAF-20210903"></property>
+		<property name="xomen" value="AAF-210903"></property>
 		<property name="deadline" value="2021/10/01 19:39"></property>
 		<property name="budget" value="14.00 USD"></property>
 		<property name="important" value="true"></property>
@@ -110,7 +110,7 @@
 	</bean>
 	
 	<bean id="extrasheet7" class="acme.entities.shouts.ExtraSheet">
-		<property name="xomen" value="AAG-20210903"></property>
+		<property name="xomen" value="AAG-210903"></property>
 		<property name="deadline" value="2021/10/01 19:39"></property>
 		<property name="budget" value="21.00 GBP"></property>
 		<property name="important" value="true"></property>

@@ -1,8 +1,8 @@
 recordIndex,moment,author,text,info,xomen,budgetCurrency,budgetAmount,important,deadline
-0,2021/09/08 18:00,Shout_author1,Shout_text1,http://www.example.com,AAA-20210903,EUR,34.00,true,2021/10/01 19:39
-1,2021/09/08 12:29,Shout_author2,Shout_text2,http://www.example.com,AAB-20210903,USD,73.00,true,2021/10/01 19:39
-2,2021/09/08 13:19,Shout_author3,Shout_text3,http://www.example.com,AAC-20210903,EUR,20.00,true,2021/10/01 19:39
-3,2021/09/08 14:09,Shout_author4,Shout_text4,http://www.example.com,AAD-20210903,USD,10.00,true,2021/10/01 19:39
-4,2021/09/08 15:39,Shout_author5,Shout_text5,http://www.example.com,AAE-20210903,EUR,9.00,true,2021/10/01 19:39
-5,2021/09/08 16:49,Shout_author6,Shout_text6,http://www.example.com,AAF-20210903,USD,14.00,true,2021/10/01 19:39
-6,2021/09/08 16:49,Shout_author7,Shout_text7,http://www.example.com,AAG-20210903,GBP,21.00,true,2021/10/01 19:39
+0,2021/09/08 18:00,Shout_author1,Shout_text1,http://www.example.com,AAA-210903,EUR,34.00,true,2021/10/01 19:39
+1,2021/09/08 12:29,Shout_author2,Shout_text2,http://www.example.com,AAB-210903,USD,73.00,true,2021/10/01 19:39
+2,2021/09/08 13:19,Shout_author3,Shout_text3,http://www.example.com,AAC-210903,EUR,20.00,true,2021/10/01 19:39
+3,2021/09/08 14:09,Shout_author4,Shout_text4,http://www.example.com,AAD-210903,USD,10.00,true,2021/10/01 19:39
+4,2021/09/08 15:39,Shout_author5,Shout_text5,http://www.example.com,AAE-210903,EUR,9.00,true,2021/10/01 19:39
+5,2021/09/08 16:49,Shout_author6,Shout_text6,http://www.example.com,AAF-210903,USD,14.00,true,2021/10/01 19:39
+6,2021/09/08 16:49,Shout_author7,Shout_text7,http://www.example.com,AAG-210903,GBP,21.00,true,2021/10/01 19:39

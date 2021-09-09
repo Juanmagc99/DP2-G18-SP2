@@ -24,7 +24,7 @@ public class ExtraSheet extends DomainEntity {
 	protected static final long	serialVersionUID	= 1L;
 
 	@Column(unique = true)
-	@Pattern(regexp = "(^\\w{3}\\-\\d{8}$)", message = "default.error.conversion")
+	@Pattern(regexp = "(^\\w{3}\\-\\d{6}$)", message = "default.error.conversion")
 	protected String		xomen;
 
 	@NotNull

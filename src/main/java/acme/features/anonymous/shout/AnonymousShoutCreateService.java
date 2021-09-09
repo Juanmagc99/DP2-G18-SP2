@@ -104,20 +104,24 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 			final String dateFech = dateStringSplited[1];
 			final char[] dateFechSeparated = dateFech.toCharArray();
 			
-			final String yearString = String.valueOf(dateFechSeparated[0])+String.valueOf(dateFechSeparated[1])
-			+String.valueOf(dateFechSeparated[2])+String.valueOf(dateFechSeparated[3]);
+			final String yearString = String.valueOf(dateFechSeparated[0])+String.valueOf(dateFechSeparated[1]);
 			final  Integer yearInteger = Integer.valueOf(yearString);
 			
-			final String monthString = String.valueOf(dateFechSeparated[4])+String.valueOf(dateFechSeparated[5]);
+			final String monthString = String.valueOf(dateFechSeparated[2])+String.valueOf(dateFechSeparated[3]);
 			final Integer monthInteger = Integer.valueOf(monthString);
 			
-			final String dayString = String.valueOf(dateFechSeparated[6])+String.valueOf(dateFechSeparated[7]);
+			final String dayString = String.valueOf(dateFechSeparated[4])+String.valueOf(dateFechSeparated[5]);
 			final Integer dayInteger = Integer.valueOf(dayString);
 			
 			////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 			
 			final LocalDate today = LocalDate.now();
-			final Boolean yearCorrect = yearInteger == today.getYear();
+			final String todayYearString = String.valueOf(today.getYear());
+			final char[] todayYearChar = todayYearString.toCharArray();
+			final String todayYearShortString = String.valueOf(todayYearChar[2])+String.valueOf(todayYearChar[3]);
+			final Integer todayYearInteger = Integer.valueOf(todayYearShortString);
+			
+			final Boolean yearCorrect = yearInteger == todayYearInteger;
 			final Boolean monthCorrect = monthInteger == today.getMonthValue();
 			final Boolean dayCorrect = dayInteger == today.getDayOfMonth();
 			

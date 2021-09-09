@@ -3,8 +3,8 @@ recordIndex,author,text,info,xomen,budget,important,deadline
 0,Shout_author2,Shout_text2,http://www.example2.com,,,true,2021/05/10 00:00
 0,Shout_author3,Shout_text3,ww.ex,-10/10/2022,ETH 16.00,true,
 0,,,,,,,
-0,Shout_author5,Shout_text5,http://www.example5.com,AAA-20170101,BTC 16.00,true,
+0,Shout_author5,Shout_text5,http://www.example5.com,AAA-170101,BTC 16.00,true,
 0,Shout_author66666666666666666666666666666666666,Shout_text6,http://www.example6.com,AAA-20170101,Yen 16.00,true,2021/12/10 00:00
-0,Shout_author7,Shout_text7,http://www.example7.com,AAA-20170101,Yen 16.00,true,2017/12/10 00:00
+0,Shout_author7,Shout_text7,http://www.example7.com,AAA-170101,Yen 16.00,true,2017/12/10 00:00
 0,Shout_author8,Shout_text8,http://www.example8.com,,XML 100.00,true,2018/12/10 00:00
-0,Shout_author9,Shout_text9,http://www.example9.com,AAA-20210910,XML 100.00,true,2022/12/10 00:00
+0,Shout_author9,Shout_text9,http://www.example9.com,AAA-210910,XML 100.00,true,2022/12/10 00:00

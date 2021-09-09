@@ -1,10 +1,10 @@
 recordIndex,author,text,info,xomen,budget,important,deadline
-7,Shout_author7,Shout_text7,http://www.example7.com,AAA-20210909,EUR 20.00,true,2021/12/10 00:00
-8,Shout_author8,Shout_text8,http://www.example8.com,AAB-20210909,GBP 20.00,true,2021/12/10 00:00
-9,Shout_author9,Shout_text9,http://www.example9.com,AAC-20210909,USD 20.00,false,2021/12/10 00:00
-10,Shout_author10,Shout_text10,http://www.example10.com,AAD-20210909,EUR 20.00,true,2021/12/10 00:00
-11,Shout_author11,Shout_text11,http://www.example11.com,AAE-20210909,EUR 20.00,true,2021/12/10 00:00
-12,Shout_author12,Shout_text12,http://www.example12.com,AAF-20210909,EUR 30.00,false,2021/12/10 00:00
-13,Shout_author13,Shout_text13,http://www.example13.com,AAG-20210909,EUR 25.00,false,2021/12/10 00:00
-14,Shout_author14,Shout_text14,http://www.example14.com,AAH-20210909,GBP 25.00,false,2021/12/10 00:00
-15,Shout_author15,Shout_text15,http://www.example15.com,AAI-20210909,GBP 25.00,false,2021/12/10 00:00
+7,Shout_author7,Shout_text7,http://www.example7.com,AAA-210909,EUR 20.00,true,2021/12/10 00:00
+8,Shout_author8,Shout_text8,http://www.example8.com,AAB-210909,GBP 20.00,true,2021/12/10 00:00
+9,Shout_author9,Shout_text9,http://www.example9.com,AAC-210909,USD 20.00,false,2021/12/10 00:00
+10,Shout_author10,Shout_text10,http://www.example10.com,AAD-210909,EUR 20.00,true,2021/12/10 00:00
+11,Shout_author11,Shout_text11,http://www.example11.com,AAE-210909,EUR 20.00,true,2021/12/10 00:00
+12,Shout_author12,Shout_text12,http://www.example12.com,AAF-210909,EUR 30.00,false,2021/12/10 00:00
+13,Shout_author13,Shout_text13,http://www.example13.com,AAG-210909,EUR 25.00,false,2021/12/10 00:00
+14,Shout_author14,Shout_text14,http://www.example14.com,AAH-210909,GBP 25.00,false,2021/12/10 00:00
+15,Shout_author15,Shout_text15,http://www.example15.com,AAI-210909,GBP 25.00,false,2021/12/10 00:00
